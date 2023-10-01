@@ -5,9 +5,9 @@ Description: This project aims to develop a comprehensive healthcare system that
 
 The system consists of two main components:
 
-Disease Prediction Model: This component uses traditional ML algorithm to predict potential diseases based on the symptoms input by the user. The model is trained on a large dataset of hundreds to thousands of patient records (denoted by frequency in dataset) to ensure reliable predictions.
+Disease Prediction Model: This component uses traditional ML algorithm to predict potential diseases based on the symptoms input by the user. The model is trained on a large dataset of hundreds to thousands of patient records (denoted by frequency in dataset) to ensure reliable predictions. Covering common and as well as rare yet important health conditions, diseases such psychology disorder such as diabetes, dehydration, depression, pneumonia, flu, asthma, obesity, HIV, breast cancer, stroke and so on.
 
-QA Language Model: This component uses a Language Model (LLM) to answer medical queries from users. The LLM is trained on my from-scratch scraped & prepared corpus dataset of medical queries, enabling it to provide detailed and accurate answers to a wide range of medical questions.
+QA Language Model: This component uses a Language Model (LLM) to answer medical queries from users. The LLM is trained on my from-scratch scraped & cleaned corpus dataset of medical queries & professional solutions, enabling it to provide detailed and accurate answers to a wide range of medical questions. Covering urgent topics of diagnosis, treatment, causes, risks, complications, details of symptoms.
 
 The combination of these two components allows for a robust and interactive healthcare system that can assist both patients and healthcare professionals in diagnosing diseases and finding relevant medical information. The system is designed to be user-friendly, with an intuitive interface that makes it easy for anyone to use.
 
