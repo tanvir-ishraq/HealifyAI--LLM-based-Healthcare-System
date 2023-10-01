@@ -9,6 +9,6 @@ Disease Prediction Model: This component uses traditional ML algorithm to predic
 
 QA Language Model: This component uses a Language Model (LLM) to answer medical queries from users. The LLM is trained on my from-scratch scraped & cleaned corpus dataset of medical queries & professional solutions, enabling it to provide detailed and accurate answers to a wide range of medical questions. Sample addition was done to enhance the dataset queries. Covering urgent topics of diagnosis, treatment, causes, risks, complications, details of symptoms, disease description.
 
-The combination of these two components allows for a robust and interactive healthcare system that can assist both patients and healthcare professionals in diagnosing diseases and finding relevant medical information. The system is designed to be user-friendly, with an intuitive interface that makes it easy for anyone to use.
+The combination of these two components allows for a robust interactive healthcare system that can assist both patients and healthcare professionals in diagnosing diseases, finding relevant medical information and diseases relation potentially. The system is designed to be user-friendly, with an intuitive interface that makes it easy for anyone to use.
 
 Please note that while this system can provide valuable insights and information, it is not intended to replace professional medical advice. Always consult with a healthcare professional for medical concerns.
