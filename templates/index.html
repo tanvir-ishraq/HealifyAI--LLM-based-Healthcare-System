@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealifyAI project</title>
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/select-pure/dist/select-pure.css">
+    <script src="https://unpkg.com/select-pure/dist/bundle.js"></script> -->
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- never delete  bootstrap 4 --> 
+
+    <!-- working font awesome: -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
+    
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+/* @font-face { 
+    font-family: 'WaterBrushgoogle';
+    src: url(fonts/WaterBrush-Regular.ttf);
+}
+
+body {
+    font-family: AlternateGothicPro-NoThree;
+    background-color: #F7EEDC;  
+   
+} */
+
+
+body::-webkit-scrollbar { /* chorme etc*/
+    display: none;
+}
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17.5px;
+    color: black;
+
+    background-image: url('/static/img/AI_healthcare.jpg'); 
+
+    /*("img/E_background.svg"); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    /* contain auto cover */
+            /* background-attachment: fixed; */
+}
+.glass{
+    
+    /* width: 70vw;*/
+    /* min-height: 45vh;  */
+    /* margin: 15px; */
+    padding: 15px;
+    /* margin-left: 180px; */
+    
+    background-color: rgba(255, 255, 255, 0.45);
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.adnancard {
+    color: #224;
+    margin: 15px;
+    margin-left: 180px;
+    padding: 35px;
+
+    /* max-width: 500px;
+    height: 300px;  */
+    width: 70vw;
+    height: 70vh;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(2px);
+    /* position: relative;
+    top: -300px;  */
+}
+
+div {
+    /* border: 5px black solid; */
+}
+
+nav {
+    background-color: rgb(18, 18, 39);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px,
+}
+.disease {
+    min-height: 36vh;
+}
+.LLM {
+    min-height: 56vh;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <a class="navbar-brand"  href="#">
+        <h4 class="font-weight-bold">
+            HealifyAI project
+        </h4>
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto text-center">
+        <!-- <a class="nav-item nav-link px-5  active" href="#hero-banner" >Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link px-5 " href="#who-we-are-about-us">who we are</a>
+        <a class="nav-item nav-link px-5 " href="#life-at-jde">life at jde</a>
+        <a class="nav-item nav-link px-5 " href="#join-us">join us</a> -->
+        </div>
+    </div>
+    </nav>    
+
+<section class="symptom_interface my-3">
+<div class="container-fluid">
+<div class="row" >
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-4 glass disease mx-2">
+        
+        <form action="/" method="POST">
+            <label for="symptoms">
+                <h5 class="font-weight-bold">Enter your symptoms:</h5>
+            </label><br>
+            <p class="mb-1" style="font-size: 15px; font-style: italic;">
+                You have to enter multiple symptoms. Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.
+            </p>
+                <select name="symptoms" multiple class="w-100" style="height: 150px;">
+                    {% for symptom in symptoms_collection %}
+                        <option value="{{ symptom }}">{{ symptom }}</option>
+                    {% endfor %}
+                </select> <br>
+                <input type="submit" name="symptoms_button" value="Submit" class="my-1 btn btn-dark">
+            </form>
+    </div>
+
+    <div class="col-md-4 result glass disease ">
+      <h5 class="font-weight-bold">Heath condition Prediction result: </h5>  
+      <table class="w-100">
+        <tbody>
+            {% if predictions %}
+                {% for disease, probability in predictions.items() %}
+                <tr>
+                    <td class="px-3">{{ disease }} :  </td>
+                    <td>{{ probability }}%</td>
+                </tr>
+                {% endfor %}
+            {% endif %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col-md-2"></div>
+
+</div>
+</div>
+</section>
+
+
+<section class="LM_interface mb-3">
+<div class="container-fluid">
+<div class="row " >
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8 glass LLM mx-2">
+        <h3 class="text-center font-weight-bold">
+           Healify-LLM  
+        </h3>
+        <p class="text-center font-italic" style="font-size: 16px;">Chat with Language model </p>
+        <form action="/" method="POST">
+            <label for="text" style="font-size: 16px;">
+                Ask about common and important rare health conditions, diseases, psychology disorders. You can ask about diagnosis, treatment, symptoms, and more:
+            <!-- <p>see full list of health conditions here.</p> -->
+            </label> <br />
+            <textarea class="w-100" id="text" name="text" placeholder="e.g. What can you tell me about dehydration? / what are the treatment for stroke?"></textarea>
+            <input type="submit" name="LLM_button" value="Submit" class="btn btn-dark">
+        </form>
+            
+        <div class="LLM response my-2">
+            {% if LLM_answer %}
+                <!-- <p italic/small> generating answer for {question_label}..</p> -->
+                <p>{{LLM_answer|safe}}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="col-md-2"></div>
+</div>
+</div>
+</section>
+
+
+
+<!-- test
+<div class="col-md-8 glass">
+    <form action="/submit" method="post">
+        <div id="select"></div>
+        <input type="submit" value="Submit">
+      </form>
+</div>
+
+  
+  <script>
+    var symptoms_collection = ['symptom1', 'symptom2', 'symptom3']; // replace with your symptoms
+    var options = symptoms_collection.map(function(symptom) {
+      return {label: symptom, value: symptom};
+    });
+  
+    new SelectPure("#select", {
+      options: options,
+      multiple: true,
+      autocomplete: true,
+      name: 'symptoms',
+    });
+  </script> -->
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
