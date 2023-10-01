@@ -3,7 +3,7 @@ Leverages Extensive power of Machine Learning (ML) &amp; NLP LLM to provide in-d
 
 Description: This project aims to develop a comprehensive healthcare system that leverages the power of Machine Learning (ML) and Natural Language Processing (NLP) to predict diseases based on patient symptoms and provide accurate answers to medical queries.
 
-The system consists of two main components:
+The system consists of two main modules:
 
 Disease Prediction Model: This component uses traditional ML algorithm to predict potential diseases based on the symptoms input by the user. The model is trained on a large dataset of hundreds to thousands of patient records (denoted by frequency in dataset) to ensure reliable predictions. Covering common and as well as rare yet important health conditions, diseases such psychology disorder such as diabetes, dehydration, depression, pneumonia, flu, asthma, obesity, HIV, breast cancer, stroke and so on.
 
