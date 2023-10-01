@@ -1,7 +1,5 @@
 # HealifyAI - LLM based Healthcare System
-Leverages Extensive power of Machine Learning (ML) &amp; NLP LLM to provide in-depth answers to medical queries and can predict diseases based on patient symptoms
-
-Description: This project aims to develop a comprehensive healthcare system that leverages the power of Machine Learning (ML) and LLM to predict diseases based on patient symptoms and provide accurate answers to medical queries.
+This project aims to develop a comprehensive healthcare system that leverages the power of Machine Learning (ML) and LLM to provide in-depth answers to medical queries and can predict diseases based on patient symptoms.
 
 The system consists of two main modules:
 
