@@ -1,0 +1,672 @@
+disease,question,label
+diabetes,what is diabetes? Tell me about diabetes? What kind of disease is diabetes? Can you elaborate on diabetes? What can you tell me about diabetes? Could you describe what diabetes is? I�d like to know more about diabetes. Can you help? What information do you have on diabetes? Could you provide information on diabetes?,diabetes definition
+diabetes,"for diabetes, symptoms of diabetes?",diabetes symptoms
+diabetes,"for diabetes, causes of diabetes?",diabetes causes
+diabetes,"for diabetes, diabetes risk factors?",diabetes risks
+diabetes,"for diabetes, diabetes complications?",diabetes complications
+diabetes,"for diabetes, treatment of diabetes?",diabetes treatment
+diabetes,"for diabetes, diabetes diagnosis?",diabetes diagnosis
+diabetes,"for diabetes, diabetes prevention?",diabetes prevention
+depression mental or depressive disorder,what is depression mental or depressive disorder? Tell me about depression mental or depressive disorder? What kind of disease is depression mental or depressive disorder? Can you elaborate on depression mental or depressive disorder? What can you tell me about depression mental or depressive disorder? Could you describe what depression mental or depressive disorder is? I�d like to know more about depression mental or depressive disorder. Can you help? What information do you have on depression mental or depressive disorder? Could you provide information on depression mental or depressive disorder?,depression mental or depressive disorder definition
+depression mental or depressive disorder,"for depression mental or depressive disorder, what are the symptoms of major depressive disorder??",depression mental or depressive disorder symptoms
+depression mental or depressive disorder,"for depression mental or depressive disorder, what causes major depressive disorder??",depression mental or depressive disorder causes
+coronary arteriosclerosis or coronary heart disease,what is coronary arteriosclerosis or coronary heart disease? Tell me about coronary arteriosclerosis or coronary heart disease? What kind of disease is coronary arteriosclerosis or coronary heart disease? Can you elaborate on coronary arteriosclerosis or coronary heart disease? What can you tell me about coronary arteriosclerosis or coronary heart disease? Could you describe what coronary arteriosclerosis or coronary heart disease is? I�d like to know more about coronary arteriosclerosis or coronary heart disease. Can you help? What information do you have on coronary arteriosclerosis or coronary heart disease? Could you provide information on coronary arteriosclerosis or coronary heart disease?,coronary arteriosclerosis or coronary heart disease definition
+coronary arteriosclerosis or coronary heart disease,"for coronary arteriosclerosis or coronary heart disease, coronary artery disease symptoms?",coronary arteriosclerosis or coronary heart disease symptoms
+coronary arteriosclerosis or coronary heart disease,"for coronary arteriosclerosis or coronary heart disease, causes of coronary artery disease?",coronary arteriosclerosis or coronary heart disease causes
+coronary arteriosclerosis or coronary heart disease,"for coronary arteriosclerosis or coronary heart disease, coronary artery disease risk factors?",coronary arteriosclerosis or coronary heart disease risks
+coronary arteriosclerosis or coronary heart disease,"for coronary arteriosclerosis or coronary heart disease, coronary artery disease diagnosis?",coronary arteriosclerosis or coronary heart disease diagnosis
+coronary arteriosclerosis or coronary heart disease,"for coronary arteriosclerosis or coronary heart disease, what is the treatment for cad??",coronary arteriosclerosis or coronary heart disease treatment
+pneumonia,what is pneumonia? Tell me about pneumonia? What kind of disease is pneumonia? Can you elaborate on pneumonia? What can you tell me about pneumonia? Could you describe what pneumonia is? I�d like to know more about pneumonia. Can you help? What information do you have on pneumonia? Could you provide information on pneumonia?,pneumonia definition
+pneumonia,"for pneumonia, symptoms?",pneumonia symptoms
+pneumonia,"for pneumonia, causes?",pneumonia causes
+pneumonia,"for pneumonia, diagnosis?",pneumonia diagnosis
+pneumonia,"for pneumonia, treatment?",pneumonia treatment
+pneumonia,"for pneumonia, complications?",pneumonia complications
+pneumonia,"for pneumonia, prevention?",pneumonia prevention
+asthma,what is asthma? Tell me about asthma? What kind of disease is asthma? Can you elaborate on asthma? What can you tell me about asthma? Could you describe what asthma is? I�d like to know more about asthma. Can you help? What information do you have on asthma? Could you provide information on asthma?,asthma definition
+asthma,"for asthma, symptoms?",asthma symptoms
+asthma,"for asthma, causes and triggers?",asthma causes
+asthma,"for asthma, diagnosis and types?",asthma diagnosis
+asthma,"for asthma, treatment?",asthma treatment
+asthma,"for asthma, prevention and management?",asthma prevention
+myocardial infarction,what is myocardial infarction? Tell me about myocardial infarction? What kind of disease is myocardial infarction? Can you elaborate on myocardial infarction? What can you tell me about myocardial infarction? Could you describe what myocardial infarction is? I�d like to know more about myocardial infarction. Can you help? What information do you have on myocardial infarction? Could you provide information on myocardial infarction?,myocardial infarction definition
+myocardial infarction,"for myocardial infarction, what are the symptoms of acute myocardial infarction??",myocardial infarction symptoms
+myocardial infarction,"for myocardial infarction, what causes acute myocardial infarction??",myocardial infarction causes
+myocardial infarction,"for myocardial infarction, who is at risk for acute myocardial infarction??",myocardial infarction risks
+myocardial infarction,"for myocardial infarction, how is acute myocardial infarction diagnosed??",myocardial infarction diagnosis
+myocardial infarction,"for myocardial infarction, how can acute myocardial infarction be prevented??",myocardial infarction prevention
+dementia,what is dementia? Tell me about dementia? What kind of disease is dementia? Can you elaborate on dementia? What can you tell me about dementia? Could you describe what dementia is? I�d like to know more about dementia. Can you help? What information do you have on dementia? Could you provide information on dementia?,dementia definition
+dementia,"for dementia, dementia signs and symptoms?",dementia symptoms
+dementia,"for dementia, what causes dementia??",dementia causes
+dementia,"for dementia, dementia treatment?",dementia treatment
+dementia,"for dementia, dementia prevention?",dementia prevention
+hypothyroidism,what is hypothyroidism? Tell me about hypothyroidism? What kind of disease is hypothyroidism? Can you elaborate on hypothyroidism? What can you tell me about hypothyroidism? Could you describe what hypothyroidism is? I�d like to know more about hypothyroidism. Can you help? What information do you have on hypothyroidism? Could you provide information on hypothyroidism?,hypothyroidism definition
+hypothyroidism,"for hypothyroidism, what are the signs and symptoms of hypothyroidism??",hypothyroidism symptoms
+hypothyroidism,"for hypothyroidism, what causes hypothyroidism??",hypothyroidism causes
+hypothyroidism,"for hypothyroidism, what are the risk factors of hypothyroidism??",hypothyroidism risks
+hypothyroidism,"for hypothyroidism, how is hypothyroidism diagnosed??",hypothyroidism diagnosis
+hypothyroidism,"for hypothyroidism, what alternative treatments may help hypothyroidism??",hypothyroidism treatment
+hypothyroidism,"for hypothyroidism, what are the complications of hypothyroidism??",hypothyroidism complications
+malignant neoplasms or primary malignant neoplasm,what is malignant neoplasms or primary malignant neoplasm? Tell me about malignant neoplasms or primary malignant neoplasm? What kind of disease is malignant neoplasms or primary malignant neoplasm? Can you elaborate on malignant neoplasms or primary malignant neoplasm? What can you tell me about malignant neoplasms or primary malignant neoplasm? Could you describe what malignant neoplasms or primary malignant neoplasm is? I�d like to know more about malignant neoplasms or primary malignant neoplasm. Can you help? What information do you have on malignant neoplasms or primary malignant neoplasm? Could you provide information on malignant neoplasms or primary malignant neoplasm?,malignant neoplasms or primary malignant neoplasm definition
+malignant neoplasms or primary malignant neoplasm,"for malignant neoplasms or primary malignant neoplasm, what are the causes of neoplastic disease??",malignant neoplasms or primary malignant neoplasm causes
+malignant neoplasms or primary malignant neoplasm,"for malignant neoplasms or primary malignant neoplasm, what are the symptoms of neoplastic disease??",malignant neoplasms or primary malignant neoplasm symptoms
+malignant neoplasms or primary malignant neoplasm,"for malignant neoplasms or primary malignant neoplasm, how is neoplastic disease diagnosed??",malignant neoplasms or primary malignant neoplasm diagnosis
+cellulitis,what is cellulitis? Tell me about cellulitis? What kind of disease is cellulitis? Can you elaborate on cellulitis? What can you tell me about cellulitis? Could you describe what cellulitis is? I�d like to know more about cellulitis. Can you help? What information do you have on cellulitis? Could you provide information on cellulitis?,cellulitis definition
+cellulitis,"for cellulitis, what are the symptoms of cellulitis??",cellulitis symptoms
+cellulitis,"for cellulitis, what causes cellulitis??",cellulitis causes
+cellulitis,"for cellulitis, what are the risk factors for cellulitis??",cellulitis risks
+cellulitis,"for cellulitis, how is cellulitis diagnosed??",cellulitis diagnosis
+cellulitis,"for cellulitis, are there complications of cellulitis??",cellulitis complications
+cellulitis,"for cellulitis, can you prevent cellulitis??",cellulitis prevention
+gastroesophageal reflux disease,what is gastroesophageal reflux disease? Tell me about gastroesophageal reflux disease? What kind of disease is gastroesophageal reflux disease? Can you elaborate on gastroesophageal reflux disease? What can you tell me about gastroesophageal reflux disease? Could you describe what gastroesophageal reflux disease is? I�d like to know more about gastroesophageal reflux disease. Can you help? What information do you have on gastroesophageal reflux disease? Could you provide information on gastroesophageal reflux disease?,gastroesophageal reflux disease definition
+gastroesophageal reflux disease,"for gastroesophageal reflux disease, symptoms?",gastroesophageal reflux disease symptoms
+gastroesophageal reflux disease,"for gastroesophageal reflux disease, causes?",gastroesophageal reflux disease causes
+gastroesophageal reflux disease,"for gastroesophageal reflux disease, diagnosis?",gastroesophageal reflux disease diagnosis
+gastroesophageal reflux disease,"for gastroesophageal reflux disease, treatment?",gastroesophageal reflux disease treatment
+gastroesophageal reflux disease,"for gastroesophageal reflux disease, complications?",gastroesophageal reflux disease complications
+deep vein thrombosis,what is deep vein thrombosis? Tell me about deep vein thrombosis? What kind of disease is deep vein thrombosis? Can you elaborate on deep vein thrombosis? What can you tell me about deep vein thrombosis? Could you describe what deep vein thrombosis is? I�d like to know more about deep vein thrombosis. Can you help? What information do you have on deep vein thrombosis? Could you provide information on deep vein thrombosis?,deep vein thrombosis definition
+deep vein thrombosis,"for deep vein thrombosis, symptoms?",deep vein thrombosis symptoms
+deep vein thrombosis,"for deep vein thrombosis, is it a muscle cramp or a symptom of dvt??",deep vein thrombosis symptoms
+deep vein thrombosis,"for deep vein thrombosis, diagnosis?",deep vein thrombosis diagnosis
+deep vein thrombosis,"for deep vein thrombosis, treatment?",deep vein thrombosis treatment
+deep vein thrombosis,"for deep vein thrombosis, other complications?",deep vein thrombosis complications
+deep vein thrombosis,"for deep vein thrombosis, risk factors?",deep vein thrombosis risks
+deep vein thrombosis,"for deep vein thrombosis, prevention?",deep vein thrombosis prevention
+dehydration,what is dehydration? Tell me about dehydration? What kind of disease is dehydration? Can you elaborate on dehydration? What can you tell me about dehydration? Could you describe what dehydration is? I�d like to know more about dehydration. Can you help? What information do you have on dehydration? Could you provide information on dehydration?,dehydration definition
+dehydration,"for dehydration, dehydration risk factors?",dehydration risks
+dehydration,"for dehydration, how is dehydration diagnosed??",dehydration diagnosis
+dehydration,"for dehydration, potential complications of untreated dehydration?",dehydration complications
+dehydration,"for dehydration, how can i prevent dehydration??",dehydration prevention
+neoplasm,what is neoplasm? Tell me about neoplasm? What kind of disease is neoplasm? Can you elaborate on neoplasm? What can you tell me about neoplasm? Could you describe what neoplasm is? I�d like to know more about neoplasm. Can you help? What information do you have on neoplasm? Could you provide information on neoplasm?,neoplasm definition
+neoplasm,"for neoplasm, what are the causes of neoplastic disease??",neoplasm causes
+neoplasm,"for neoplasm, what are the symptoms of neoplastic disease??",neoplasm symptoms
+neoplasm,"for neoplasm, how is neoplastic disease diagnosed??",neoplasm diagnosis
+embolism pulmonary,what is embolism pulmonary? Tell me about embolism pulmonary? What kind of disease is embolism pulmonary? Can you elaborate on embolism pulmonary? What can you tell me about embolism pulmonary? Could you describe what embolism pulmonary is? I�d like to know more about embolism pulmonary. Can you help? What information do you have on embolism pulmonary? Could you provide information on embolism pulmonary?,embolism pulmonary definition
+embolism pulmonary,"for embolism pulmonary, what are the symptoms of a pulmonary embolism??",embolism pulmonary symptoms
+embolism pulmonary,"for embolism pulmonary, what causes a pulmonary embolism??",embolism pulmonary causes
+embolism pulmonary,"for embolism pulmonary, how is a pulmonary embolism diagnosed??",embolism pulmonary diagnosis
+embolism pulmonary,"for embolism pulmonary, what are the risk factors for a pulmonary embolism??",embolism pulmonary risks
+embolism pulmonary,"for embolism pulmonary, prevention?",embolism pulmonary prevention
+epilepsy,what is epilepsy? Tell me about epilepsy? What kind of disease is epilepsy? Can you elaborate on epilepsy? What can you tell me about epilepsy? Could you describe what epilepsy is? I�d like to know more about epilepsy. Can you help? What information do you have on epilepsy? Could you provide information on epilepsy?,epilepsy definition
+epilepsy,"for epilepsy, what are the symptoms of a seizure??",epilepsy symptoms
+epilepsy,"for epilepsy, what causes seizures??",epilepsy causes
+epilepsy,"for epilepsy, how are seizures diagnosed??",epilepsy diagnosis
+epilepsy,"for epilepsy, prevention?",epilepsy prevention
+cardiomyopathy,what is cardiomyopathy? Tell me about cardiomyopathy? What kind of disease is cardiomyopathy? Can you elaborate on cardiomyopathy? What can you tell me about cardiomyopathy? Could you describe what cardiomyopathy is? I�d like to know more about cardiomyopathy. Can you help? What information do you have on cardiomyopathy? Could you provide information on cardiomyopathy?,cardiomyopathy definition
+cardiomyopathy,"for cardiomyopathy, what are the symptoms of cardiomyopathy??",cardiomyopathy symptoms
+cardiomyopathy,"for cardiomyopathy, what causes cardiomyopathy??",cardiomyopathy causes
+cardiomyopathy,"for cardiomyopathy, risk factors for cardiomyopathy?",cardiomyopathy risks
+cardiomyopathy,"for cardiomyopathy, how is cardiomyopathy diagnosed??",cardiomyopathy diagnosis
+cardiomyopathy,"for cardiomyopathy, can cardiomyopathy be prevented??",cardiomyopathy prevention
+chronic kidney failure,what is chronic kidney failure? Tell me about chronic kidney failure? What kind of disease is chronic kidney failure? Can you elaborate on chronic kidney failure? What can you tell me about chronic kidney failure? Could you describe what chronic kidney failure is? I�d like to know more about chronic kidney failure. Can you help? What information do you have on chronic kidney failure? Could you provide information on chronic kidney failure?,chronic kidney failure definition
+chronic kidney failure,"for chronic kidney failure, symptoms of chronic kidney failure?",chronic kidney failure symptoms
+chronic kidney failure,"for chronic kidney failure, causes of chronic kidney failure?",chronic kidney failure causes
+chronic kidney failure,"for chronic kidney failure, diagnosing chronic kidney failure?",chronic kidney failure diagnosis
+chronic kidney failure,"for chronic kidney failure, treatment of chronic kidney failure?",chronic kidney failure treatment
+chronic kidney failure,"for chronic kidney failure, preventing chronic kidney failure?",chronic kidney failure prevention
+carcinoma,what is carcinoma? Tell me about carcinoma? What kind of disease is carcinoma? Can you elaborate on carcinoma? What can you tell me about carcinoma? Could you describe what carcinoma is? I�d like to know more about carcinoma. Can you help? What information do you have on carcinoma? Could you provide information on carcinoma?,carcinoma definition
+carcinoma,"for carcinoma, what are the symptoms of basal cell carcinoma??",carcinoma symptoms
+carcinoma,"for carcinoma, what causes basal cell carcinoma??",carcinoma causes
+carcinoma,"for carcinoma, what are the risk factors of basal cell carcinoma??",carcinoma risks
+carcinoma,"for carcinoma, how is basal cell carcinoma diagnosed??",carcinoma diagnosis
+carcinoma,"for carcinoma, recovering from treatment?",carcinoma treatment
+carcinoma,"for carcinoma, can basal cell carcinoma cause complications??",carcinoma causes
+carcinoma,"for carcinoma, is basal cell carcinoma preventable??",carcinoma prevention
+hepatitis C,what is hepatitis C? Tell me about hepatitis C? What kind of disease is hepatitis C? Can you elaborate on hepatitis C? What can you tell me about hepatitis C? Could you describe what hepatitis C is? I�d like to know more about hepatitis C. Can you help? What information do you have on hepatitis C? Could you provide information on hepatitis C?,hepatitis C definition
+hepatitis C,"for hepatitis C, what are the symptoms of acute hepatitis c??",hepatitis C symptoms
+hepatitis C,"for hepatitis C, risk factors?",hepatitis C risks
+hepatitis C,"for hepatitis C, prevention?",hepatitis C prevention
+psychotic disorder,what is psychotic disorder? Tell me about psychotic disorder? What kind of disease is psychotic disorder? Can you elaborate on psychotic disorder? What can you tell me about psychotic disorder? Could you describe what psychotic disorder is? I�d like to know more about psychotic disorder. Can you help? What information do you have on psychotic disorder? Could you provide information on psychotic disorder?,psychotic disorder definition
+psychotic disorder,"for psychotic disorder, recognizing the symptoms of psychosis?",psychotic disorder symptoms
+psychotic disorder,"for psychotic disorder, causes of psychosis?",psychotic disorder causes
+psychotic disorder,"for psychotic disorder, risk factors for developing psychosis?",psychotic disorder risks
+psychotic disorder,"for psychotic disorder, how is psychosis diagnosed??",psychotic disorder diagnosis
+psychotic disorder,"for psychotic disorder, treatment of psychosis?",psychotic disorder treatment
+psychotic disorder,"for psychotic disorder, complications and outlook for people with psychosis?",psychotic disorder complications
+bipolar disorder,what is bipolar disorder? Tell me about bipolar disorder? What kind of disease is bipolar disorder? Can you elaborate on bipolar disorder? What can you tell me about bipolar disorder? Could you describe what bipolar disorder is? I�d like to know more about bipolar disorder. Can you help? What information do you have on bipolar disorder? Could you provide information on bipolar disorder?,bipolar disorder definition
+bipolar disorder,"for bipolar disorder, bipolar disorder symptoms?",bipolar disorder symptoms
+bipolar disorder,"for bipolar disorder, bipolar disorder symptoms in women vs. men?",bipolar disorder symptoms
+bipolar disorder,"for bipolar disorder, bipolar disorder treatment?",bipolar disorder treatment
+bipolar disorder,"for bipolar disorder, causes and risk factors?",bipolar disorder causes
+bipolar disorder,"for bipolar disorder, can you prevent bipolar disorder??",bipolar disorder prevention
+obesity,what is obesity? Tell me about obesity? What kind of disease is obesity? Can you elaborate on obesity? What can you tell me about obesity? Could you describe what obesity is? I�d like to know more about obesity. Can you help? What information do you have on obesity? Could you provide information on obesity?,obesity definition
+obesity,"for obesity, what are the symptoms of obesity??",obesity symptoms
+obesity,"for obesity, what causes obesity??",obesity causes
+obesity,"for obesity, who is at risk of obesity??",obesity risks
+obesity,"for obesity, how is obesity diagnosed??",obesity diagnosis
+obesity,"for obesity, what are the complications of obesity??",obesity complications
+obesity,"for obesity, how can you prevent obesity??",obesity prevention
+ischemia,what is ischemia? Tell me about ischemia? What kind of disease is ischemia? Can you elaborate on ischemia? What can you tell me about ischemia? Could you describe what ischemia is? I�d like to know more about ischemia. Can you help? What information do you have on ischemia? Could you provide information on ischemia?,ischemia definition
+ischemia,"for ischemia, what are the symptoms??",ischemia symptoms
+ischemia,"for ischemia, what causes ischemic stroke??",ischemia causes
+ischemia,"for ischemia, what are the risk factors??",ischemia risks
+ischemia,"for ischemia, how is it diagnosed??",ischemia diagnosis
+ischemia,"for ischemia, what complications are associated with ischemic stroke??",ischemia complications
+cirrhosis,what is cirrhosis? Tell me about cirrhosis? What kind of disease is cirrhosis? Can you elaborate on cirrhosis? What can you tell me about cirrhosis? Could you describe what cirrhosis is? I�d like to know more about cirrhosis. Can you help? What information do you have on cirrhosis? Could you provide information on cirrhosis?,cirrhosis definition
+cirrhosis,"for cirrhosis, cirrhosis symptoms?",cirrhosis symptoms
+cirrhosis,"for cirrhosis, common causes of cirrhosis?",cirrhosis causes
+cirrhosis,"for cirrhosis, how cirrhosis is diagnosed?",cirrhosis diagnosis
+cirrhosis,"for cirrhosis, complications from cirrhosis?",cirrhosis complications
+cirrhosis,"for cirrhosis, treatment for cirrhosis?",cirrhosis treatment
+cirrhosis,"for cirrhosis, preventing cirrhosis?",cirrhosis prevention
+benign prostatic hypertrophy,"for benign prostatic hypertrophy, bph causes?",benign prostatic hypertrophy causes
+benign prostatic hypertrophy,"for benign prostatic hypertrophy, bph symptoms?",benign prostatic hypertrophy symptoms
+benign prostatic hypertrophy,"for benign prostatic hypertrophy, bph diagnosis?",benign prostatic hypertrophy diagnosis
+benign prostatic hypertrophy,"for benign prostatic hypertrophy, bph treatment?",benign prostatic hypertrophy treatment
+benign prostatic hypertrophy,"for benign prostatic hypertrophy, bph natural treatment?",benign prostatic hypertrophy treatment
+benign prostatic hypertrophy,"for benign prostatic hypertrophy, complications of bph?",benign prostatic hypertrophy complications
+arthritis,what is arthritis? Tell me about arthritis? What kind of disease is arthritis? Can you elaborate on arthritis? What can you tell me about arthritis? Could you describe what arthritis is? I�d like to know more about arthritis. Can you help? What information do you have on arthritis? Could you provide information on arthritis?,arthritis definition
+arthritis,"for arthritis, what are the symptoms of arthritis??",arthritis symptoms
+arthritis,"for arthritis, what causes arthritis??",arthritis causes
+arthritis,"for arthritis, how is arthritis diagnosed??",arthritis diagnosis
+arthritis,"for arthritis, complications?",arthritis complications
+arthritis,"for arthritis, risk factors?",arthritis risks
+osteoporosis,what is osteoporosis? Tell me about osteoporosis? What kind of disease is osteoporosis? Can you elaborate on osteoporosis? What can you tell me about osteoporosis? Could you describe what osteoporosis is? I�d like to know more about osteoporosis. Can you help? What information do you have on osteoporosis? Could you provide information on osteoporosis?,osteoporosis definition
+osteoporosis,"for osteoporosis, symptoms of osteoporosis?",osteoporosis symptoms
+osteoporosis,"for osteoporosis, complications of osteoporosis?",osteoporosis complications
+osteoporosis,"for osteoporosis, causes and risk factors of osteoporosis?",osteoporosis causes
+osteoporosis,"for osteoporosis, treatment and prevention?",osteoporosis treatment
+pancreatitis,what is pancreatitis? Tell me about pancreatitis? What kind of disease is pancreatitis? Can you elaborate on pancreatitis? What can you tell me about pancreatitis? Could you describe what pancreatitis is? I�d like to know more about pancreatitis. Can you help? What information do you have on pancreatitis? Could you provide information on pancreatitis?,pancreatitis definition
+pancreatitis,"for pancreatitis, what causes acute pancreatitis??",pancreatitis causes
+pancreatitis,"for pancreatitis, who is at risk for acute pancreatitis??",pancreatitis risks
+pancreatitis,"for pancreatitis, recognizing the symptoms of acute pancreatitis?",pancreatitis symptoms
+pancreatitis,"for pancreatitis, diagnosing acute pancreatitis?",pancreatitis diagnosis
+pancreatitis,"for pancreatitis, complications of acute pancreatitis?",pancreatitis complications
+incontinence,what is incontinence? Tell me about incontinence? What kind of disease is incontinence? Can you elaborate on incontinence? What can you tell me about incontinence? Could you describe what incontinence is? I�d like to know more about incontinence. Can you help? What information do you have on incontinence? Could you provide information on incontinence?,incontinence definition
+incontinence,"for incontinence, stress incontinence symptoms?",incontinence symptoms
+incontinence,"for incontinence, treatment for stress incontinence?",incontinence treatment
+hernia,what is hernia? Tell me about hernia? What kind of disease is hernia? Can you elaborate on hernia? What can you tell me about hernia? Could you describe what hernia is? I�d like to know more about hernia. Can you help? What information do you have on hernia? Could you provide information on hernia?,hernia definition
+hernia,"for hernia, hernia symptoms?",hernia symptoms
+hernia,"for hernia, hernia causes?",hernia causes
+hernia,"for hernia, hernia treatment?",hernia treatment
+hernia,"for hernia, hernia diagnosis?",hernia diagnosis
+hernia,"for hernia, hernia complications?",hernia complications
+hernia,"for hernia, hernia prevention?",hernia prevention
+malignant neoplasm of breast or carcinoma breast,what is malignant neoplasm of breast or carcinoma breast? Tell me about malignant neoplasm of breast or carcinoma breast? What kind of disease is malignant neoplasm of breast or carcinoma breast? Can you elaborate on malignant neoplasm of breast or carcinoma breast? What can you tell me about malignant neoplasm of breast or carcinoma breast? Could you describe what malignant neoplasm of breast or carcinoma breast is? I�d like to know more about malignant neoplasm of breast or carcinoma breast. Can you help? What information do you have on malignant neoplasm of breast or carcinoma breast? Could you provide information on malignant neoplasm of breast or carcinoma breast?,malignant neoplasm of breast or carcinoma breast definition
+malignant neoplasm of breast or carcinoma breast,"for malignant neoplasm of breast or carcinoma breast, signs and symptoms of breast cancer?",malignant neoplasm of breast or carcinoma breast symptoms
+malignant neoplasm of breast or carcinoma breast,"for malignant neoplasm of breast or carcinoma breast, diagnosis of breast cancer?",malignant neoplasm of breast or carcinoma breast diagnosis
+malignant neoplasm of breast or carcinoma breast,"for malignant neoplasm of breast or carcinoma breast, breast cancer treatment?",malignant neoplasm of breast or carcinoma breast treatment
+malignant neoplasm of breast or carcinoma breast,"for malignant neoplasm of breast or carcinoma breast, risk factors for breast cancer?",malignant neoplasm of breast or carcinoma breast risks
+malignant neoplasm of breast or carcinoma breast,"for malignant neoplasm of breast or carcinoma breast, breast cancer prevention?",malignant neoplasm of breast or carcinoma breast prevention
+diverticulitis,what is diverticulitis? Tell me about diverticulitis? What kind of disease is diverticulitis? Can you elaborate on diverticulitis? What can you tell me about diverticulitis? Could you describe what diverticulitis is? I�d like to know more about diverticulitis. Can you help? What information do you have on diverticulitis? Could you provide information on diverticulitis?,diverticulitis definition
+diverticulitis,"for diverticulitis, symptoms of diverticulitis?",diverticulitis symptoms
+diverticulitis,"for diverticulitis, causes of diverticulitis?",diverticulitis causes
+diverticulitis,"for diverticulitis, what are the complications of diverticulitis??",diverticulitis complications
+diverticulitis,"for diverticulitis, diagnosis of diverticulitis?",diverticulitis diagnosis
+diverticulitis,"for diverticulitis, treatment for diverticulitis?",diverticulitis treatment
+diverticulitis,"for diverticulitis, preventing diverticulitis?",diverticulitis prevention
+diverticulitis,"for diverticulitis, risk factors for diverticulitis?",diverticulitis risks
+osteomyelitis,what is osteomyelitis? Tell me about osteomyelitis? What kind of disease is osteomyelitis? Can you elaborate on osteomyelitis? What can you tell me about osteomyelitis? Could you describe what osteomyelitis is? I�d like to know more about osteomyelitis. Can you help? What information do you have on osteomyelitis? Could you provide information on osteomyelitis?,osteomyelitis definition
+osteomyelitis,"for osteomyelitis, what causes osteomyelitis??",osteomyelitis causes
+osteomyelitis,"for osteomyelitis, what are the symptoms??",osteomyelitis symptoms
+osteomyelitis,"for osteomyelitis, how is osteomyelitis diagnosed??",osteomyelitis diagnosis
+osteomyelitis,"for osteomyelitis, what are the treatments for osteomyelitis??",osteomyelitis treatment
+osteomyelitis,"for osteomyelitis, who is at risk for osteomyelitis??",osteomyelitis risks
+osteomyelitis,"for osteomyelitis, can you prevent osteomyelitis??",osteomyelitis prevention
+bacteremia,what is bacteremia? Tell me about bacteremia? What kind of disease is bacteremia? Can you elaborate on bacteremia? What can you tell me about bacteremia? Could you describe what bacteremia is? I�d like to know more about bacteremia. Can you help? What information do you have on bacteremia? Could you provide information on bacteremia?,bacteremia definition
+bacteremia,"for bacteremia, causes?",bacteremia causes
+bacteremia,"for bacteremia, symptoms?",bacteremia symptoms
+bacteremia,"for bacteremia, diagnosis?",bacteremia diagnosis
+bacteremia,"for bacteremia, treatment?",bacteremia treatment
+bacteremia,"for bacteremia, risks and complications?",bacteremia risks
+sickle cell anemia,what is sickle cell anemia? Tell me about sickle cell anemia? What kind of disease is sickle cell anemia? Can you elaborate on sickle cell anemia? What can you tell me about sickle cell anemia? Could you describe what sickle cell anemia is? I�d like to know more about sickle cell anemia. Can you help? What information do you have on sickle cell anemia? Could you provide information on sickle cell anemia?,sickle cell anemia definition
+sickle cell anemia,"for sickle cell anemia, what are the symptoms of sickle cell anemia??",sickle cell anemia symptoms
+sickle cell anemia,"for sickle cell anemia, who is at risk for sickle cell anemia??",sickle cell anemia risks
+sickle cell anemia,"for sickle cell anemia, what complications can arise from sickle cell anemia??",sickle cell anemia complications
+sickle cell anemia,"for sickle cell anemia, how is sickle cell anemia diagnosed??",sickle cell anemia diagnosis
+upper respiratory infection,what is upper respiratory infection? Tell me about upper respiratory infection? What kind of disease is upper respiratory infection? Can you elaborate on upper respiratory infection? What can you tell me about upper respiratory infection? Could you describe what upper respiratory infection is? I�d like to know more about upper respiratory infection. Can you help? What information do you have on upper respiratory infection? Could you provide information on upper respiratory infection?,upper respiratory infection definition
+upper respiratory infection,"for upper respiratory infection, what are the symptoms of acute respiratory infection??",upper respiratory infection symptoms
+upper respiratory infection,"for upper respiratory infection, what causes acute respiratory infection??",upper respiratory infection causes
+upper respiratory infection,"for upper respiratory infection, who is at risk for acute respiratory infection??",upper respiratory infection risks
+upper respiratory infection,"for upper respiratory infection, how is acute respiratory infection diagnosed??",upper respiratory infection diagnosis
+upper respiratory infection,"for upper respiratory infection, what are potential complications of acute respiratory infection??",upper respiratory infection complications
+upper respiratory infection,"for upper respiratory infection, preventing acute respiratory infection?",upper respiratory infection prevention
+hepatitis,what is hepatitis? Tell me about hepatitis? What kind of disease is hepatitis? Can you elaborate on hepatitis? What can you tell me about hepatitis? Could you describe what hepatitis is? I�d like to know more about hepatitis. Can you help? What information do you have on hepatitis? Could you provide information on hepatitis?,hepatitis definition
+hepatitis,"for hepatitis, causes of hepatitis?",hepatitis causes
+hepatitis,"for hepatitis, common symptoms of hepatitis?",hepatitis symptoms
+hepatitis,"for hepatitis, how hepatitis is diagnosed?",hepatitis diagnosis
+hepatitis,"for hepatitis, tips to prevent hepatitis?",hepatitis prevention
+hepatitis,"for hepatitis, complications of hepatitis?",hepatitis complications
+gout,what is gout? Tell me about gout? What kind of disease is gout? Can you elaborate on gout? What can you tell me about gout? Could you describe what gout is? I�d like to know more about gout. Can you help? What information do you have on gout? Could you provide information on gout?,gout definition
+gout,"for gout, symptoms of gout?",gout symptoms
+gout,"for gout, treatment of gout?",gout treatment
+gout,"for gout, causes of gout?",gout causes
+gout,"for gout, gout diagnosis?",gout diagnosis
+gout,"for gout, gout prevention?",gout prevention
+thrombocytopaenia,what is thrombocytopaenia? Tell me about thrombocytopaenia? What kind of disease is thrombocytopaenia? Can you elaborate on thrombocytopaenia? What can you tell me about thrombocytopaenia? Could you describe what thrombocytopaenia is? I�d like to know more about thrombocytopaenia. Can you help? What information do you have on thrombocytopaenia? Could you provide information on thrombocytopaenia?,thrombocytopaenia definition
+thrombocytopaenia,"for thrombocytopaenia, what are the symptoms of isolated thrombocytopenia??",thrombocytopaenia symptoms
+thrombocytopaenia,"for thrombocytopaenia, isolated thrombocytopenia causes?",thrombocytopaenia causes
+thrombocytopaenia,"for thrombocytopaenia, potential complications of isolated thrombocytopenia?",thrombocytopaenia complications
+thrombocytopaenia,"for thrombocytopaenia, isolated thrombocytopenia diagnosis?",thrombocytopaenia diagnosis
+thrombocytopaenia,"for thrombocytopaenia, isolated thrombocytopenia treatment?",thrombocytopaenia treatment
+hypoglycemia,what is hypoglycemia? Tell me about hypoglycemia? What kind of disease is hypoglycemia? Can you elaborate on hypoglycemia? What can you tell me about hypoglycemia? Could you describe what hypoglycemia is? I�d like to know more about hypoglycemia. Can you help? What information do you have on hypoglycemia? Could you provide information on hypoglycemia?,hypoglycemia definition
+hypoglycemia,"for hypoglycemia, what are the symptoms of hypoglycemia??",hypoglycemia symptoms
+hypoglycemia,"for hypoglycemia, what causes hypoglycemia??",hypoglycemia causes
+hypoglycemia,"for hypoglycemia, how is hypoglycemia diagnosed??",hypoglycemia diagnosis
+hypoglycemia,"for hypoglycemia, complications from spells of hypoglycemia?",hypoglycemia complications
+hypoglycemia,"for hypoglycemia, how can episodes of hypoglycemia be prevented??",hypoglycemia prevention
+pneumonia aspiration,what is pneumonia aspiration? Tell me about pneumonia aspiration? What kind of disease is pneumonia aspiration? Can you elaborate on pneumonia aspiration? What can you tell me about pneumonia aspiration? Could you describe what pneumonia aspiration is? I�d like to know more about pneumonia aspiration. Can you help? What information do you have on pneumonia aspiration? Could you provide information on pneumonia aspiration?,pneumonia aspiration definition
+pneumonia aspiration,"for pneumonia aspiration, what are the symptoms of aspiration pneumonia??",pneumonia aspiration symptoms
+pneumonia aspiration,"for pneumonia aspiration, what causes aspiration pneumonia??",pneumonia aspiration causes
+pneumonia aspiration,"for pneumonia aspiration, who is at risk for aspiration pneumonia??",pneumonia aspiration risks
+pneumonia aspiration,"for pneumonia aspiration, how is aspiration pneumonia diagnosed??",pneumonia aspiration diagnosis
+pneumonia aspiration,"for pneumonia aspiration, how can aspiration pneumonia be prevented??",pneumonia aspiration prevention
+colitis,what is colitis? Tell me about colitis? What kind of disease is colitis? Can you elaborate on colitis? What can you tell me about colitis? Could you describe what colitis is? I�d like to know more about colitis. Can you help? What information do you have on colitis? Could you provide information on colitis?,colitis definition
+colitis,"for colitis, ulcerative colitis symptoms?",colitis symptoms
+colitis,"for colitis, ulcerative colitis causes?",colitis causes
+colitis,"for colitis, ulcerative colitis diagnosis?",colitis diagnosis
+colitis,"for colitis, ulcerative colitis treatment?",colitis treatment
+colitis,"for colitis, complications of ulcerative colitis?",colitis complications
+colitis,"for colitis, ulcerative colitis risk factors?",colitis risks
+colitis,"for colitis, ulcerative colitis prevention?",colitis prevention
+diverticulosis,what is diverticulosis? Tell me about diverticulosis? What kind of disease is diverticulosis? Can you elaborate on diverticulosis? What can you tell me about diverticulosis? Could you describe what diverticulosis is? I�d like to know more about diverticulosis. Can you help? What information do you have on diverticulosis? Could you provide information on diverticulosis?,diverticulosis definition
+diverticulosis,"for diverticulosis, symptoms of diverticulitis?",diverticulosis symptoms
+diverticulosis,"for diverticulosis, causes of diverticulitis?",diverticulosis causes
+diverticulosis,"for diverticulosis, what are the complications of diverticulitis??",diverticulosis complications
+diverticulosis,"for diverticulosis, diagnosis of diverticulitis?",diverticulosis diagnosis
+diverticulosis,"for diverticulosis, treatment for diverticulitis?",diverticulosis treatment
+diverticulosis,"for diverticulosis, preventing diverticulitis?",diverticulosis prevention
+diverticulosis,"for diverticulosis, risk factors for diverticulitis?",diverticulosis risks
+suicide attempt,what is suicide attempt? Tell me about suicide attempt? What kind of disease is suicide attempt? Can you elaborate on suicide attempt? What can you tell me about suicide attempt? Could you describe what suicide attempt is? I�d like to know more about suicide attempt. Can you help? What information do you have on suicide attempt? Could you provide information on suicide attempt?,suicide attempt definition
+suicide attempt,"for suicide attempt, symptoms?",suicide attempt symptoms
+suicide attempt,"for suicide attempt, risk factors?",suicide attempt risks
+suicide attempt,"for suicide attempt, how is suicidal ideation diagnosed??",suicide attempt diagnosis
+suicide attempt,"for suicide attempt, how can you prevent suicidal ideation??",suicide attempt prevention
+lymphoma,what is lymphoma? Tell me about lymphoma? What kind of disease is lymphoma? Can you elaborate on lymphoma? What can you tell me about lymphoma? Could you describe what lymphoma is? I�d like to know more about lymphoma. Can you help? What information do you have on lymphoma? Could you provide information on lymphoma?,lymphoma definition
+lymphoma,"for lymphoma, what are the symptoms of lymphoma??",lymphoma symptoms
+lymphoma,"for lymphoma, what are the causes of lymphoma??",lymphoma causes
+lymphoma,"for lymphoma, what are risk factors for lymphoma??",lymphoma risks
+lymphoma,"for lymphoma, how is lymphoma diagnosed??",lymphoma diagnosis
+encephalopathy,what is encephalopathy? Tell me about encephalopathy? What kind of disease is encephalopathy? Can you elaborate on encephalopathy? What can you tell me about encephalopathy? Could you describe what encephalopathy is? I�d like to know more about encephalopathy. Can you help? What information do you have on encephalopathy? Could you provide information on encephalopathy?,encephalopathy definition
+encephalopathy,"for encephalopathy, what are the types and causes of encephalopathy??",encephalopathy causes
+encephalopathy,"for encephalopathy, what are the symptoms of encephalopathy??",encephalopathy symptoms
+encephalopathy,"for encephalopathy, how is encephalopathy diagnosed??",encephalopathy diagnosis
+encephalopathy,"for encephalopathy, is encephalopathy preventable??",encephalopathy prevention
+tricuspid valve insufficiency,what is tricuspid valve insufficiency? Tell me about tricuspid valve insufficiency? What kind of disease is tricuspid valve insufficiency? Can you elaborate on tricuspid valve insufficiency? What can you tell me about tricuspid valve insufficiency? Could you describe what tricuspid valve insufficiency is? I�d like to know more about tricuspid valve insufficiency. Can you help? What information do you have on tricuspid valve insufficiency? Could you provide information on tricuspid valve insufficiency?,tricuspid valve insufficiency definition
+tricuspid valve insufficiency,"for tricuspid valve insufficiency, recognizing the signs and symptoms of tricuspid regurgitation?",tricuspid valve insufficiency symptoms
+tricuspid valve insufficiency,"for tricuspid valve insufficiency, what causes tricuspid regurgitation??",tricuspid valve insufficiency causes
+tricuspid valve insufficiency,"for tricuspid valve insufficiency, how is tricuspid regurgitation diagnosed??",tricuspid valve insufficiency diagnosis
+tricuspid valve insufficiency,"for tricuspid valve insufficiency, treatment options for tricuspid regurgitation?",tricuspid valve insufficiency treatment
+tricuspid valve insufficiency,"for tricuspid valve insufficiency, potential long-term complications?",tricuspid valve insufficiency complications
+tricuspid valve insufficiency,"for tricuspid valve insufficiency, preventing tricuspid regurgitation?",tricuspid valve insufficiency prevention
+Alzheimer's disease,what is Alzheimer's disease? Tell me about Alzheimer's disease? What kind of disease is Alzheimer's disease? Can you elaborate on Alzheimer's disease? What can you tell me about Alzheimer's disease? Could you describe what Alzheimer's disease is? I�d like to know more about Alzheimer's disease. Can you help? What information do you have on Alzheimer's disease? Could you provide information on Alzheimer's disease?,Alzheimer's disease definition
+Alzheimer's disease,"for Alzheimer's disease, symptoms of alzheimer�s disease?",Alzheimer's disease symptoms
+Alzheimer's disease,"for Alzheimer's disease, diagnosing alzheimer�s disease?",Alzheimer's disease diagnosis
+Alzheimer's disease,"for Alzheimer's disease, other alzheimer�s treatments?",Alzheimer's disease treatment
+Alzheimer's disease,"for Alzheimer's disease, alzheimer�s disease causes and risk factors?",Alzheimer's disease causes
+Alzheimer's disease,"for Alzheimer's disease, preventing alzheimer�s?",Alzheimer's disease prevention
+candidiasis or oral candidiasis,what is candidiasis or oral candidiasis? Tell me about candidiasis or oral candidiasis? What kind of disease is candidiasis or oral candidiasis? Can you elaborate on candidiasis or oral candidiasis? What can you tell me about candidiasis or oral candidiasis? Could you describe what candidiasis or oral candidiasis is? I�d like to know more about candidiasis or oral candidiasis. Can you help? What information do you have on candidiasis or oral candidiasis? Could you provide information on candidiasis or oral candidiasis?,candidiasis or oral candidiasis definition
+candidiasis or oral candidiasis,"for candidiasis or oral candidiasis, symptoms of oral thrush?",candidiasis or oral candidiasis symptoms
+candidiasis or oral candidiasis,"for candidiasis or oral candidiasis, what causes oral thrush??",candidiasis or oral candidiasis causes
+candidiasis or oral candidiasis,"for candidiasis or oral candidiasis, what are the risk factors for oral thrush??",candidiasis or oral candidiasis risks
+candidiasis or oral candidiasis,"for candidiasis or oral candidiasis, what are the complications of oral thrush??",candidiasis or oral candidiasis complications
+candidiasis or oral candidiasis,"for candidiasis or oral candidiasis, how do doctors diagnose oral thrush??",candidiasis or oral candidiasis diagnosis
+candidiasis or oral candidiasis,"for candidiasis or oral candidiasis, how do you prevent oral thrush??",candidiasis or oral candidiasis prevention
+neuropathy,what is neuropathy? Tell me about neuropathy? What kind of disease is neuropathy? Can you elaborate on neuropathy? What can you tell me about neuropathy? Could you describe what neuropathy is? I�d like to know more about neuropathy. Can you help? What information do you have on neuropathy? Could you provide information on neuropathy?,neuropathy definition
+neuropathy,"for neuropathy, what are the symptoms of peripheral neuropathy??",neuropathy symptoms
+neuropathy,"for neuropathy, what are the causes of peripheral neuropathy??",neuropathy causes
+neuropathy,"for neuropathy, how is peripheral neuropathy diagnosed??",neuropathy diagnosis
+neuropathy,"for neuropathy, what are the treatment options for peripheral neuropathy??",neuropathy treatment
+neuropathy,"for neuropathy, how can i prevent peripheral neuropathy??",neuropathy prevention
+kidney disease,what is kidney disease? Tell me about kidney disease? What kind of disease is kidney disease? Can you elaborate on kidney disease? What can you tell me about kidney disease? Could you describe what kidney disease is? I�d like to know more about kidney disease. Can you help? What information do you have on kidney disease? Could you provide information on kidney disease?,kidney disease definition
+kidney disease,"for kidney disease, symptoms of kidney failure?",kidney disease symptoms
+kidney disease,"for kidney disease, causes of kidney failure?",kidney disease causes
+kidney disease,"for kidney disease, diagnostic tests?",kidney disease diagnosis
+kidney disease,"for kidney disease, treatment?",kidney disease treatment
+kidney disease,"for kidney disease, complications?",kidney disease complications
+kidney disease,"for kidney disease, kidney failure prevention?",kidney disease prevention
+glaucoma,what is glaucoma? Tell me about glaucoma? What kind of disease is glaucoma? Can you elaborate on glaucoma? What can you tell me about glaucoma? Could you describe what glaucoma is? I�d like to know more about glaucoma. Can you help? What information do you have on glaucoma? Could you provide information on glaucoma?,glaucoma definition
+glaucoma,"for glaucoma, what are the symptoms of glaucoma??",glaucoma symptoms
+glaucoma,"for glaucoma, what causes glaucoma??",glaucoma causes
+glaucoma,"for glaucoma, who is at risk of glaucoma??",glaucoma risks
+glaucoma,"for glaucoma, how is glaucoma diagnosed??",glaucoma diagnosis
+glaucoma,"for glaucoma, can glaucoma be prevented??",glaucoma prevention
+neoplasm metastasis,what is neoplasm metastasis? Tell me about neoplasm metastasis? What kind of disease is neoplasm metastasis? Can you elaborate on neoplasm metastasis? What can you tell me about neoplasm metastasis? Could you describe what neoplasm metastasis is? I�d like to know more about neoplasm metastasis. Can you help? What information do you have on neoplasm metastasis? Could you provide information on neoplasm metastasis?,neoplasm metastasis definition
+neoplasm metastasis,"for neoplasm metastasis, where do metastatic cancers commonly spread to, and what are the symptoms??",neoplasm metastasis symptoms
+neoplasm metastasis,"for neoplasm metastasis, how are metastatic cancers diagnosed??",neoplasm metastasis diagnosis
+malignant tumor of colon or carcinoma colon,what is malignant tumor of colon or carcinoma colon? Tell me about malignant tumor of colon or carcinoma colon? What kind of disease is malignant tumor of colon or carcinoma colon? Can you elaborate on malignant tumor of colon or carcinoma colon? What can you tell me about malignant tumor of colon or carcinoma colon? Could you describe what malignant tumor of colon or carcinoma colon is? I�d like to know more about malignant tumor of colon or carcinoma colon. Can you help? What information do you have on malignant tumor of colon or carcinoma colon? Could you provide information on malignant tumor of colon or carcinoma colon?,malignant tumor of colon or carcinoma colon definition
+malignant tumor of colon or carcinoma colon,"for malignant tumor of colon or carcinoma colon, what are the symptoms of colon cancer??",malignant tumor of colon or carcinoma colon symptoms
+malignant tumor of colon or carcinoma colon,"for malignant tumor of colon or carcinoma colon, what causes colon cancer??",malignant tumor of colon or carcinoma colon causes
+malignant tumor of colon or carcinoma colon,"for malignant tumor of colon or carcinoma colon, what are the risk factors for colon cancer??",malignant tumor of colon or carcinoma colon risks
+malignant tumor of colon or carcinoma colon,"for malignant tumor of colon or carcinoma colon, how is colon cancer diagnosed??",malignant tumor of colon or carcinoma colon diagnosis
+malignant tumor of colon or carcinoma colon,"for malignant tumor of colon or carcinoma colon, what are the treatment options for colon cancer??",malignant tumor of colon or carcinoma colon treatment
+malignant tumor of colon or carcinoma colon,"for malignant tumor of colon or carcinoma colon, can colon cancer be prevented??",malignant tumor of colon or carcinoma colon prevention
+ketoacidosis diabetic,what is ketoacidosis diabetic? Tell me about ketoacidosis diabetic? What kind of disease is ketoacidosis diabetic? Can you elaborate on ketoacidosis diabetic? What can you tell me about ketoacidosis diabetic? Could you describe what ketoacidosis diabetic is? I�d like to know more about ketoacidosis diabetic. Can you help? What information do you have on ketoacidosis diabetic? Could you provide information on ketoacidosis diabetic?,ketoacidosis diabetic definition
+ketoacidosis diabetic,"for ketoacidosis diabetic, what are the symptoms of diabetic ketoacidosis??",ketoacidosis diabetic symptoms
+ketoacidosis diabetic,"for ketoacidosis diabetic, what causes diabetic ketoacidosis??",ketoacidosis diabetic causes
+ketoacidosis diabetic,"for ketoacidosis diabetic, who is at risk for developing diabetic ketoacidosis??",ketoacidosis diabetic risks
+ketoacidosis diabetic,"for ketoacidosis diabetic, how is diabetic ketoacidosis diagnosed??",ketoacidosis diabetic diagnosis
+ketoacidosis diabetic,"for ketoacidosis diabetic, preventing diabetic ketoacidosis?",ketoacidosis diabetic prevention
+tonic-clonic epilepsy or tonic-clonic seizures,what is tonic-clonic epilepsy or tonic-clonic seizures? Tell me about tonic-clonic epilepsy or tonic-clonic seizures? What kind of disease is tonic-clonic epilepsy or tonic-clonic seizures? Can you elaborate on tonic-clonic epilepsy or tonic-clonic seizures? What can you tell me about tonic-clonic epilepsy or tonic-clonic seizures? Could you describe what tonic-clonic epilepsy or tonic-clonic seizures is? I�d like to know more about tonic-clonic epilepsy or tonic-clonic seizures. Can you help? What information do you have on tonic-clonic epilepsy or tonic-clonic seizures? Could you provide information on tonic-clonic epilepsy or tonic-clonic seizures?,tonic-clonic epilepsy or tonic-clonic seizures definition
+tonic-clonic epilepsy or tonic-clonic seizures,"for tonic-clonic epilepsy or tonic-clonic seizures, what causes tonic seizures??",tonic-clonic epilepsy or tonic-clonic seizures causes
+tonic-clonic epilepsy or tonic-clonic seizures,"for tonic-clonic epilepsy or tonic-clonic seizures, how are seizure disorders diagnosed??",tonic-clonic epilepsy or tonic-clonic seizures diagnosis
+respiratory failure,what is respiratory failure? Tell me about respiratory failure? What kind of disease is respiratory failure? Can you elaborate on respiratory failure? What can you tell me about respiratory failure? Could you describe what respiratory failure is? I�d like to know more about respiratory failure. Can you help? What information do you have on respiratory failure? Could you provide information on respiratory failure?,respiratory failure definition
+respiratory failure,"for respiratory failure, what are the symptoms of acute respiratory failure??",respiratory failure symptoms
+respiratory failure,"for respiratory failure, what causes acute respiratory failure??",respiratory failure causes
+respiratory failure,"for respiratory failure, who is at risk for acute respiratory failure??",respiratory failure risks
+respiratory failure,"for respiratory failure, diagnosing acute respiratory failure?",respiratory failure diagnosis
+respiratory failure,"for respiratory failure, complications?",respiratory failure complications
+melanoma,what is melanoma? Tell me about melanoma? What kind of disease is melanoma? Can you elaborate on melanoma? What can you tell me about melanoma? Could you describe what melanoma is? I�d like to know more about melanoma. Can you help? What information do you have on melanoma? Could you provide information on melanoma?,melanoma definition
+melanoma,"for melanoma, what are the symptoms of metastatic melanoma??",melanoma symptoms
+melanoma,"for melanoma, what are the causes and risk factors of metastatic melanoma??",melanoma causes
+melanoma,"for melanoma, how is metastatic melanoma diagnosed??",melanoma diagnosis
+malignant neoplasm of lung or carcinoma of lung,what is malignant neoplasm of lung or carcinoma of lung? Tell me about malignant neoplasm of lung or carcinoma of lung? What kind of disease is malignant neoplasm of lung or carcinoma of lung? Can you elaborate on malignant neoplasm of lung or carcinoma of lung? What can you tell me about malignant neoplasm of lung or carcinoma of lung? Could you describe what malignant neoplasm of lung or carcinoma of lung is? I�d like to know more about malignant neoplasm of lung or carcinoma of lung. Can you help? What information do you have on malignant neoplasm of lung or carcinoma of lung? Could you provide information on malignant neoplasm of lung or carcinoma of lung?,malignant neoplasm of lung or carcinoma of lung definition
+malignant neoplasm of lung or carcinoma of lung,"for malignant neoplasm of lung or carcinoma of lung, what are the symptoms of lung cancer??",malignant neoplasm of lung or carcinoma of lung symptoms
+malignant neoplasm of lung or carcinoma of lung,"for malignant neoplasm of lung or carcinoma of lung, what causes lung cancer??",malignant neoplasm of lung or carcinoma of lung causes
+malignant neoplasm of lung or carcinoma of lung,"for malignant neoplasm of lung or carcinoma of lung, risk factors for lung cancer?",malignant neoplasm of lung or carcinoma of lung risks
+malignant neoplasm of lung or carcinoma of lung,"for malignant neoplasm of lung or carcinoma of lung, diagnosing lung cancer?",malignant neoplasm of lung or carcinoma of lung diagnosis
+malignant neoplasm of lung or carcinoma of lung,"for malignant neoplasm of lung or carcinoma of lung, treatment for lung cancer?",malignant neoplasm of lung or carcinoma of lung treatment
+malignant neoplasm of lung or carcinoma of lung,"for malignant neoplasm of lung or carcinoma of lung, home therapies for lung cancer symptoms?",malignant neoplasm of lung or carcinoma of lung symptoms
+malignant neoplasm of lung or carcinoma of lung,"for malignant neoplasm of lung or carcinoma of lung, complications of lung cancer?",malignant neoplasm of lung or carcinoma of lung complications
+malignant neoplasm of lung or carcinoma of lung,"for malignant neoplasm of lung or carcinoma of lung, tips for lung cancer prevention?",malignant neoplasm of lung or carcinoma of lung prevention
+manic disorder,what is manic disorder? Tell me about manic disorder? What kind of disease is manic disorder? Can you elaborate on manic disorder? What can you tell me about manic disorder? Could you describe what manic disorder is? I�d like to know more about manic disorder. Can you help? What information do you have on manic disorder? Could you provide information on manic disorder?,manic disorder definition
+manic disorder,"for manic disorder, bipolar disorder symptoms?",manic disorder symptoms
+manic disorder,"for manic disorder, bipolar disorder symptoms in women vs. men?",manic disorder symptoms
+manic disorder,"for manic disorder, bipolar disorder treatment?",manic disorder treatment
+manic disorder,"for manic disorder, causes and risk factors?",manic disorder causes
+manic disorder,"for manic disorder, can you prevent bipolar disorder??",manic disorder prevention
+personality disorder,what is personality disorder? Tell me about personality disorder? What kind of disease is personality disorder? Can you elaborate on personality disorder? What can you tell me about personality disorder? Could you describe what personality disorder is? I�d like to know more about personality disorder. Can you help? What information do you have on personality disorder? Could you provide information on personality disorder?,personality disorder definition
+personality disorder,"for personality disorder, what causes histrionic personality disorder??",personality disorder causes
+personality disorder,"for personality disorder, diagnosis of hpd?",personality disorder diagnosis
+personality disorder,"for personality disorder, treatment of hpd?",personality disorder treatment
+emphysema pulmonary,what is emphysema pulmonary? Tell me about emphysema pulmonary? What kind of disease is emphysema pulmonary? Can you elaborate on emphysema pulmonary? What can you tell me about emphysema pulmonary? Could you describe what emphysema pulmonary is? I�d like to know more about emphysema pulmonary. Can you help? What information do you have on emphysema pulmonary? Could you provide information on emphysema pulmonary?,emphysema pulmonary definition
+emphysema pulmonary,"for emphysema pulmonary, what are the symptoms of emphysema??",emphysema pulmonary symptoms
+emphysema pulmonary,"for emphysema pulmonary, causes and risk factors?",emphysema pulmonary causes
+emphysema pulmonary,"for emphysema pulmonary, how is emphysema diagnosed??",emphysema pulmonary diagnosis
+emphysema pulmonary,"for emphysema pulmonary, complications?",emphysema pulmonary complications
+emphysema pulmonary,"for emphysema pulmonary, prevention and outlook?",emphysema pulmonary prevention
+hemorrhoids,what is hemorrhoids? Tell me about hemorrhoids? What kind of disease is hemorrhoids? Can you elaborate on hemorrhoids? What can you tell me about hemorrhoids? Could you describe what hemorrhoids is? I�d like to know more about hemorrhoids. Can you help? What information do you have on hemorrhoids? Could you provide information on hemorrhoids?,hemorrhoids definition
+hemorrhoids,"for hemorrhoids, what causes external hemorrhoids??",hemorrhoids causes
+hemorrhoids,"for hemorrhoids, recognizing the symptoms of external hemorrhoids?",hemorrhoids symptoms
+hemorrhoids,"for hemorrhoids, who is at risk of external hemorrhoids??",hemorrhoids risks
+hemorrhoids,"for hemorrhoids, how are external hemorrhoids diagnosed??",hemorrhoids diagnosis
+hemorrhoids,"for hemorrhoids, how can i prevent external hemorrhoids from developing??",hemorrhoids prevention
+aphasia,what is aphasia? Tell me about aphasia? What kind of disease is aphasia? Can you elaborate on aphasia? What can you tell me about aphasia? Could you describe what aphasia is? I�d like to know more about aphasia. Can you help? What information do you have on aphasia? Could you provide information on aphasia?,aphasia definition
+aphasia,"for aphasia, aphasia symptoms?",aphasia symptoms
+aphasia,"for aphasia, aphasia causes?",aphasia causes
+aphasia,"for aphasia, who is at risk of aphasia??",aphasia risks
+aphasia,"for aphasia, diagnosing aphasia?",aphasia diagnosis
+aphasia,"for aphasia, preventing aphasia?",aphasia prevention
+obesity morbid,what is obesity morbid? Tell me about obesity morbid? What kind of disease is obesity morbid? Can you elaborate on obesity morbid? What can you tell me about obesity morbid? Could you describe what obesity morbid is? I�d like to know more about obesity morbid. Can you help? What information do you have on obesity morbid? Could you provide information on obesity morbid?,obesity morbid definition
+obesity morbid,"for obesity morbid, what causes morbid obesity??",obesity morbid causes
+obesity morbid,"for obesity morbid, who is at risk for morbid obesity??",obesity morbid risks
+obesity morbid,"for obesity morbid, diagnosing morbid obesity?",obesity morbid diagnosis
+obesity morbid,"for obesity morbid, complications of morbid obesity?",obesity morbid complications
+obesity morbid,"for obesity morbid, preventing morbid obesity?",obesity morbid prevention
+pyelonephritis,what is pyelonephritis? Tell me about pyelonephritis? What kind of disease is pyelonephritis? Can you elaborate on pyelonephritis? What can you tell me about pyelonephritis? Could you describe what pyelonephritis is? I�d like to know more about pyelonephritis. Can you help? What information do you have on pyelonephritis? Could you provide information on pyelonephritis?,pyelonephritis definition
+pyelonephritis,"for pyelonephritis, what are the symptoms??",pyelonephritis symptoms
+pyelonephritis,"for pyelonephritis, what are the causes??",pyelonephritis causes
+pyelonephritis,"for pyelonephritis, are there risk factors??",pyelonephritis risks
+pyelonephritis,"for pyelonephritis, diagnosing pyelonephritis?",pyelonephritis diagnosis
+pyelonephritis,"for pyelonephritis, potential complications?",pyelonephritis complications
+pyelonephritis,"for pyelonephritis, preventing pyelonephritis?",pyelonephritis prevention
+endocarditis,what is endocarditis? Tell me about endocarditis? What kind of disease is endocarditis? Can you elaborate on endocarditis? What can you tell me about endocarditis? Could you describe what endocarditis is? I�d like to know more about endocarditis. Can you help? What information do you have on endocarditis? Could you provide information on endocarditis?,endocarditis definition
+endocarditis,"for endocarditis, what are the symptoms of endocarditis??",endocarditis symptoms
+endocarditis,"for endocarditis, what are the causes of endocarditis??",endocarditis causes
+endocarditis,"for endocarditis, risk factors for endocarditis?",endocarditis risks
+endocarditis,"for endocarditis, how is endocarditis diagnosed??",endocarditis diagnosis
+endocarditis,"for endocarditis, what are the complications associated with endocarditis??",endocarditis complications
+endocarditis,"for endocarditis, how can endocarditis be prevented??",endocarditis prevention
+pneumothorax,what is pneumothorax? Tell me about pneumothorax? What kind of disease is pneumothorax? Can you elaborate on pneumothorax? What can you tell me about pneumothorax? Could you describe what pneumothorax is? I�d like to know more about pneumothorax. Can you help? What information do you have on pneumothorax? Could you provide information on pneumothorax?,pneumothorax definition
+pneumothorax,"for pneumothorax, symptoms of pneumothorax?",pneumothorax symptoms
+pneumothorax,"for pneumothorax, causes and types of pneumothorax?",pneumothorax causes
+pneumothorax,"for pneumothorax, risk factors for pneumothorax?",pneumothorax risks
+pneumothorax,"for pneumothorax, pneumothorax complications?",pneumothorax complications
+pneumothorax,"for pneumothorax, treatment of pneumothorax?",pneumothorax treatment
+pneumothorax,"for pneumothorax, diagnosing pneumothorax?",pneumothorax diagnosis
+delirium,what is delirium? Tell me about delirium? What kind of disease is delirium? Can you elaborate on delirium? What can you tell me about delirium? Could you describe what delirium is? I�d like to know more about delirium. Can you help? What information do you have on delirium? Could you provide information on delirium?,delirium definition
+delirium,"for delirium, what causes delirium??",delirium causes
+delirium,"for delirium, who�s at risk for delirium??",delirium risks
+delirium,"for delirium, symptoms of delirium?",delirium symptoms
+delirium,"for delirium, how is delirium diagnosed??",delirium diagnosis
+neutropenia,what is neutropenia? Tell me about neutropenia? What kind of disease is neutropenia? Can you elaborate on neutropenia? What can you tell me about neutropenia? Could you describe what neutropenia is? I�d like to know more about neutropenia. Can you help? What information do you have on neutropenia? Could you provide information on neutropenia?,neutropenia definition
+neutropenia,"for neutropenia, what are the symptoms of neutropenia??",neutropenia symptoms
+neutropenia,"for neutropenia, what causes neutropenia??",neutropenia causes
+neutropenia,"for neutropenia, who is at risk??",neutropenia risks
+neutropenia,"for neutropenia, diagnosing neutropenia?",neutropenia diagnosis
+neutropenia,"for neutropenia, can you prevent neutropenia??",neutropenia prevention
+hyperbilirubinemia,what is hyperbilirubinemia? Tell me about hyperbilirubinemia? What kind of disease is hyperbilirubinemia? Can you elaborate on hyperbilirubinemia? What can you tell me about hyperbilirubinemia? Could you describe what hyperbilirubinemia is? I�d like to know more about hyperbilirubinemia. Can you help? What information do you have on hyperbilirubinemia? Could you provide information on hyperbilirubinemia?,hyperbilirubinemia definition
+hyperbilirubinemia,"for hyperbilirubinemia, what causes high bilirubin??",hyperbilirubinemia causes
+hyperbilirubinemia,"for hyperbilirubinemia, what are the symptoms of high bilirubin??",hyperbilirubinemia symptoms
+influenza,what is influenza? Tell me about influenza? What kind of disease is influenza? Can you elaborate on influenza? What can you tell me about influenza? Could you describe what influenza is? I�d like to know more about influenza. Can you help? What information do you have on influenza? Could you provide information on influenza?,influenza definition
+influenza,"for influenza, influenza a symptoms?",influenza symptoms
+influenza,"for influenza, diagnosing influenza a?",influenza diagnosis
+influenza,"for influenza, treatment?",influenza treatment
+influenza,"for influenza, prevention?",influenza prevention
+dependence,what is dependence? Tell me about dependence? What kind of disease is dependence? Can you elaborate on dependence? What can you tell me about dependence? Could you describe what dependence is? I�d like to know more about dependence. Can you help? What information do you have on dependence? Could you provide information on dependence?,dependence definition
+dependence,"for dependence, recognizing the symptoms of drug dependence?",dependence symptoms
+thrombus,what is thrombus? Tell me about thrombus? What kind of disease is thrombus? Can you elaborate on thrombus? What can you tell me about thrombus? Could you describe what thrombus is? I�d like to know more about thrombus. Can you help? What information do you have on thrombus? Could you provide information on thrombus?,thrombus definition
+thrombus,"for thrombus, dvt symptoms?",thrombus symptoms
+thrombus,"for thrombus, causes and risk factors?",thrombus causes
+thrombus,"for thrombus, complications?",thrombus complications
+thrombus,"for thrombus, treatment?",thrombus treatment
+thrombus,"for thrombus, prevention?",thrombus prevention
+thrombus,"for thrombus, diagnosis?",thrombus diagnosis
+cholecystitis,what is cholecystitis? Tell me about cholecystitis? What kind of disease is cholecystitis? Can you elaborate on cholecystitis? What can you tell me about cholecystitis? Could you describe what cholecystitis is? I�d like to know more about cholecystitis. Can you help? What information do you have on cholecystitis? Could you provide information on cholecystitis?,cholecystitis definition
+cholecystitis,"for cholecystitis, what causes chronic cholecystitis??",cholecystitis causes
+cholecystitis,"for cholecystitis, symptoms of cholecystitis?",cholecystitis symptoms
+cholecystitis,"for cholecystitis, how cholecystitis is diagnosed?",cholecystitis diagnosis
+cholecystitis,"for cholecystitis, treatment options for cholecystitis?",cholecystitis treatment
+cholecystitis,"for cholecystitis, can chronic cholecystitis be prevented??",cholecystitis prevention
+hernia hiatal,what is hernia hiatal? Tell me about hernia hiatal? What kind of disease is hernia hiatal? Can you elaborate on hernia hiatal? What can you tell me about hernia hiatal? Could you describe what hernia hiatal is? I�d like to know more about hernia hiatal. Can you help? What information do you have on hernia hiatal? Could you provide information on hernia hiatal?,hernia hiatal definition
+hernia hiatal,"for hernia hiatal, symptoms of a hiatal hernia?",hernia hiatal symptoms
+hernia hiatal,"for hernia hiatal, treatment options for hiatal hernias?",hernia hiatal treatment
+hernia hiatal,"for hernia hiatal, causes and risk factors for hiatal hernias?",hernia hiatal causes
+hernia hiatal,"for hernia hiatal, testing for and diagnosing hiatal hernias?",hernia hiatal diagnosis
+hernia hiatal,"for hernia hiatal, prevention of hiatal hernias?",hernia hiatal prevention
+migraine disorders,what is migraine disorders? Tell me about migraine disorders? What kind of disease is migraine disorders? Can you elaborate on migraine disorders? What can you tell me about migraine disorders? Could you describe what migraine disorders is? I�d like to know more about migraine disorders. Can you help? What information do you have on migraine disorders? Could you provide information on migraine disorders?,migraine disorders definition
+migraine disorders,"for migraine disorders, migraine symptoms?",migraine disorders symptoms
+migraine disorders,"for migraine disorders, what causes migraine attacks??",migraine disorders causes
+migraine disorders,"for migraine disorders, migraine treatment?",migraine disorders treatment
+migraine disorders,"for migraine disorders, migraine prevention?",migraine disorders prevention
+migraine disorders,"for migraine disorders, how is migraine diagnosed??",migraine disorders diagnosis
+pancytopenia,what is pancytopenia? Tell me about pancytopenia? What kind of disease is pancytopenia? Can you elaborate on pancytopenia? What can you tell me about pancytopenia? Could you describe what pancytopenia is? I�d like to know more about pancytopenia. Can you help? What information do you have on pancytopenia? Could you provide information on pancytopenia?,pancytopenia definition
+pancytopenia,"for pancytopenia, symptoms of pancytopenia?",pancytopenia symptoms
+pancytopenia,"for pancytopenia, pancytopenia causes and risk factors?",pancytopenia causes
+pancytopenia,"for pancytopenia, complications caused by pancytopenia?",pancytopenia causes
+pancytopenia,"for pancytopenia, how pancytopenia is diagnosed?",pancytopenia diagnosis
+pancytopenia,"for pancytopenia, treatment options?",pancytopenia treatment
+pancytopenia,"for pancytopenia, prevention of pancytopenia?",pancytopenia prevention
+cholelithiasis or biliary calculus,what is cholelithiasis or biliary calculus? Tell me about cholelithiasis or biliary calculus? What kind of disease is cholelithiasis or biliary calculus? Can you elaborate on cholelithiasis or biliary calculus? What can you tell me about cholelithiasis or biliary calculus? Could you describe what cholelithiasis or biliary calculus is? I�d like to know more about cholelithiasis or biliary calculus. Can you help? What information do you have on cholelithiasis or biliary calculus? Could you provide information on cholelithiasis or biliary calculus?,cholelithiasis or biliary calculus definition
+cholelithiasis or biliary calculus,"for cholelithiasis or biliary calculus, signs and symptoms of gallstones?",cholelithiasis or biliary calculus symptoms
+cholelithiasis or biliary calculus,"for cholelithiasis or biliary calculus, causes?",cholelithiasis or biliary calculus causes
+cholelithiasis or biliary calculus,"for cholelithiasis or biliary calculus, treatment?",cholelithiasis or biliary calculus treatment
+cholelithiasis or biliary calculus,"for cholelithiasis or biliary calculus, risk factors for gallstones?",cholelithiasis or biliary calculus risks
+cholelithiasis or biliary calculus,"for cholelithiasis or biliary calculus, diagnosis?",cholelithiasis or biliary calculus diagnosis
+cholelithiasis or biliary calculus,"for cholelithiasis or biliary calculus, prevention?",cholelithiasis or biliary calculus prevention
+tachycardia sinus,what is tachycardia sinus? Tell me about tachycardia sinus? What kind of disease is tachycardia sinus? Can you elaborate on tachycardia sinus? What can you tell me about tachycardia sinus? Could you describe what tachycardia sinus is? I�d like to know more about tachycardia sinus. Can you help? What information do you have on tachycardia sinus? Could you provide information on tachycardia sinus?,tachycardia sinus definition
+tachycardia sinus,"for tachycardia sinus, what causes sinus tachycardia??",tachycardia sinus causes
+tachycardia sinus,"for tachycardia sinus, sinus tachycardia symptoms?",tachycardia sinus symptoms
+tachycardia sinus,"for tachycardia sinus, sinus tachycardia treatment?",tachycardia sinus treatment
+tachycardia sinus,"for tachycardia sinus, how is sinus tachycardia diagnosed??",tachycardia sinus diagnosis
+tachycardia sinus,"for tachycardia sinus, how can i prevent sinus tachycardia??",tachycardia sinus prevention
+ileus,what is ileus? Tell me about ileus? What kind of disease is ileus? Can you elaborate on ileus? What can you tell me about ileus? Could you describe what ileus is? I�d like to know more about ileus. Can you help? What information do you have on ileus? Could you provide information on ileus?,ileus definition
+ileus,"for ileus, what are the causes of an ileus??",ileus causes
+ileus,"for ileus, what are the symptoms of an ileus??",ileus symptoms
+ileus,"for ileus, how is an ileus diagnosed??",ileus diagnosis
+ileus,"for ileus, risk factors for ileus?",ileus risks
+ileus,"for ileus, what complications can an ileus cause??",ileus causes
+ileus,"for ileus, can an ileus be prevented??",ileus prevention
+adhesion,what is adhesion? Tell me about adhesion? What kind of disease is adhesion? Can you elaborate on adhesion? What can you tell me about adhesion? Could you describe what adhesion is? I�d like to know more about adhesion. Can you help? What information do you have on adhesion? Could you provide information on adhesion?,adhesion definition
+adhesion,"for adhesion, symptoms of gallbladder adhesions?",adhesion symptoms
+adhesion,"for adhesion, what causes gallbladder adhesions??",adhesion causes
+adhesion,"for adhesion, complications of gallbladder adhesions?",adhesion complications
+adhesion,"for adhesion, diagnosis and treatment of gallbladder adhesions?",adhesion treatment
+delusion,what is delusion? Tell me about delusion? What kind of disease is delusion? Can you elaborate on delusion? What can you tell me about delusion? Could you describe what delusion is? I�d like to know more about delusion. Can you help? What information do you have on delusion? Could you provide information on delusion?,delusion definition
+delusion,"for delusion, recognizing the symptoms of psychosis?",delusion symptoms
+delusion,"for delusion, causes of psychosis?",delusion causes
+delusion,"for delusion, risk factors for developing psychosis?",delusion risks
+delusion,"for delusion, how is psychosis diagnosed??",delusion diagnosis
+delusion,"for delusion, treatment of psychosis?",delusion treatment
+delusion,"for delusion, complications and outlook for people with psychosis?",delusion complications
+coronary artery disease,what is coronary artery disease? Tell me about coronary artery disease? What kind of disease is coronary artery disease? Can you elaborate on coronary artery disease? What can you tell me about coronary artery disease? Could you describe what coronary artery disease is? I�d like to know more about coronary artery disease. Can you help? What information do you have on coronary artery disease? Could you provide information on coronary artery disease?,coronary artery disease definition
+coronary artery disease,"for coronary artery disease, coronary artery disease symptoms?",coronary artery disease symptoms
+coronary artery disease,"for coronary artery disease, causes of coronary artery disease?",coronary artery disease causes
+coronary artery disease,"for coronary artery disease, coronary artery disease risk factors?",coronary artery disease risks
+coronary artery disease,"for coronary artery disease, coronary artery disease diagnosis?",coronary artery disease diagnosis
+coronary artery disease,"for coronary artery disease, what is the treatment for cad??",coronary artery disease treatment
+congestive heart failure,what is congestive heart failure? Tell me about congestive heart failure? What kind of disease is congestive heart failure? Can you elaborate on congestive heart failure? What can you tell me about congestive heart failure? Could you describe what congestive heart failure is? I�d like to know more about congestive heart failure. Can you help? What information do you have on congestive heart failure? Could you provide information on congestive heart failure?,congestive heart failure definition
+congestive heart failure,"for congestive heart failure, what causes heart failure??",congestive heart failure causes
+congestive heart failure,"for congestive heart failure, what are the symptoms of heart failure??",congestive heart failure symptoms
+congestive heart failure,"for congestive heart failure, what are the risk factors for heart failure??",congestive heart failure risks
+congestive heart failure,"for congestive heart failure, how is heart failure diagnosed??",congestive heart failure diagnosis
+congestive heart failure,"for congestive heart failure, how can you prevent heart failure??",congestive heart failure prevention
+congestive heart failure,"for congestive heart failure, what are the complications of heart failure??",congestive heart failure complications
+stroke,what is stroke? Tell me about stroke? What kind of disease is stroke? Can you elaborate on stroke? What can you tell me about stroke? Could you describe what stroke is? I�d like to know more about stroke. Can you help? What information do you have on stroke? Could you provide information on stroke?,stroke definition
+stroke,"for stroke, stroke symptoms?",stroke symptoms
+stroke,"for stroke, what causes a stroke??",stroke causes
+stroke,"for stroke, risk factors for stroke?",stroke risks
+stroke,"for stroke, complications?",stroke complications
+stroke,"for stroke, how to prevent a stroke?",stroke prevention
+stroke,"for stroke, diagnosis of stroke?",stroke diagnosis
+stroke,"for stroke, tests to diagnose stroke?",stroke diagnosis
+stroke,"for stroke, stroke treatment?",stroke treatment
+high cholesterol,what is high cholesterol? Tell me about high cholesterol? What kind of disease is high cholesterol? Can you elaborate on high cholesterol? What can you tell me about high cholesterol? Could you describe what high cholesterol is? I�d like to know more about high cholesterol. Can you help? What information do you have on high cholesterol? Could you provide information on high cholesterol?,high cholesterol definition
+high cholesterol,"for high cholesterol, high cholesterol symptoms?",high cholesterol symptoms
+high cholesterol,"for high cholesterol, causes of high cholesterol?",high cholesterol causes
+high cholesterol,"for high cholesterol, risk factors for high cholesterol?",high cholesterol risks
+high cholesterol,"for high cholesterol, complications of high cholesterol?",high cholesterol complications
+high cholesterol,"for high cholesterol, how to prevent high cholesterol?",high cholesterol prevention
+infectious disease,what is infectious disease? Tell me about infectious disease? What kind of disease is infectious disease? Can you elaborate on infectious disease? What can you tell me about infectious disease? Could you describe what infectious disease is? I�d like to know more about infectious disease. Can you help? What information do you have on infectious disease? Could you provide information on infectious disease?,infectious disease definition
+infectious disease,"for infectious disease, what are the symptoms of acute respiratory infection??",infectious disease symptoms
+infectious disease,"for infectious disease, what causes acute respiratory infection??",infectious disease causes
+infectious disease,"for infectious disease, who is at risk for acute respiratory infection??",infectious disease risks
+infectious disease,"for infectious disease, how is acute respiratory infection diagnosed??",infectious disease diagnosis
+infectious disease,"for infectious disease, what are potential complications of acute respiratory infection??",infectious disease complications
+infectious disease,"for infectious disease, preventing acute respiratory infection?",infectious disease prevention
+COPD,what is COPD? Tell me about COPD? What kind of disease is COPD? Can you elaborate on COPD? What can you tell me about COPD? Could you describe what COPD is? I�d like to know more about COPD. Can you help? What information do you have on COPD? Could you provide information on COPD?,COPD definition
+COPD,"for COPD, what are the symptoms of copd??",COPD symptoms
+COPD,"for COPD, what causes copd??",COPD causes
+COPD,"for COPD, diagnosing copd?",COPD diagnosis
+COPD,"for COPD, treatment for copd?",COPD treatment
+kidney failure,what is kidney failure? Tell me about kidney failure? What kind of disease is kidney failure? Can you elaborate on kidney failure? What can you tell me about kidney failure? Could you describe what kidney failure is? I�d like to know more about kidney failure. Can you help? What information do you have on kidney failure? Could you provide information on kidney failure?,kidney failure definition
+kidney failure,"for kidney failure, symptoms of kidney failure?",kidney failure symptoms
+kidney failure,"for kidney failure, causes of kidney failure?",kidney failure causes
+kidney failure,"for kidney failure, diagnostic tests?",kidney failure diagnosis
+kidney failure,"for kidney failure, treatment?",kidney failure treatment
+kidney failure,"for kidney failure, complications?",kidney failure complications
+kidney failure,"for kidney failure, kidney failure prevention?",kidney failure prevention
+dementia,what is dementia? Tell me about dementia? What kind of disease is dementia? Can you elaborate on dementia? What can you tell me about dementia? Could you describe what dementia is? I�d like to know more about dementia. Can you help? What information do you have on dementia? Could you provide information on dementia?,dementia definition
+dementia,"for dementia, dementia signs and symptoms?",dementia symptoms
+dementia,"for dementia, what causes dementia??",dementia causes
+dementia,"for dementia, dementia treatment?",dementia treatment
+dementia,"for dementia, dementia prevention?",dementia prevention
+osteoarthritis,what is osteoarthritis? Tell me about osteoarthritis? What kind of disease is osteoarthritis? Can you elaborate on osteoarthritis? What can you tell me about osteoarthritis? Could you describe what osteoarthritis is? I�d like to know more about osteoarthritis. Can you help? What information do you have on osteoarthritis? Could you provide information on osteoarthritis?,osteoarthritis definition
+osteoarthritis,"for osteoarthritis, what are the symptoms of arthritis??",osteoarthritis symptoms
+osteoarthritis,"for osteoarthritis, what causes arthritis??",osteoarthritis causes
+osteoarthritis,"for osteoarthritis, how is arthritis diagnosed??",osteoarthritis diagnosis
+osteoarthritis,"for osteoarthritis, complications?",osteoarthritis complications
+osteoarthritis,"for osteoarthritis, risk factors?",osteoarthritis risks
+anxiety disorder,what is anxiety disorder? Tell me about anxiety disorder? What kind of disease is anxiety disorder? Can you elaborate on anxiety disorder? What can you tell me about anxiety disorder? Could you describe what anxiety disorder is? I�d like to know more about anxiety disorder. Can you help? What information do you have on anxiety disorder? Could you provide information on anxiety disorder?,anxiety disorder definition
+anxiety disorder,"for anxiety disorder, what are the symptoms of anxiety??",anxiety disorder symptoms
+anxiety disorder,"for anxiety disorder, what causes anxiety??",anxiety disorder causes
+anxiety disorder,"for anxiety disorder, who is at risk of anxiety disorders??",anxiety disorder risks
+anxiety disorder,"for anxiety disorder, are there tests that diagnose anxiety??",anxiety disorder diagnosis
+anxiety disorder,"for anxiety disorder, what are treatments for anxiety??",anxiety disorder treatment
+anxiety disorder,"for anxiety disorder, anxiety prevention?",anxiety disorder prevention
+sepsis,what is sepsis? Tell me about sepsis? What kind of disease is sepsis? Can you elaborate on sepsis? What can you tell me about sepsis? Could you describe what sepsis is? I�d like to know more about sepsis. Can you help? What information do you have on sepsis? Could you provide information on sepsis?,sepsis definition
+sepsis,"for sepsis, what are the symptoms of sepsis??",sepsis symptoms
+sepsis,"for sepsis, what causes sepsis??",sepsis causes
+sepsis,"for sepsis, who is at risk for sepsis??",sepsis risks
+sepsis,"for sepsis, how is sepsis diagnosed??",sepsis diagnosis
+sepsis,"for sepsis, sepsis prevention?",sepsis prevention
+sepsis,"for sepsis, sepsis complications?",sepsis complications
+rash,what is rash? Tell me about rash? What kind of disease is rash? Can you elaborate on rash? What can you tell me about rash? Could you describe what rash is? I�d like to know more about rash. Can you help? What information do you have on rash? Could you provide information on rash?,rash definition
+rash,"for rash, treatment options?",rash treatment
+acute kidney injury,what is acute kidney injury? Tell me about acute kidney injury? What kind of disease is acute kidney injury? Can you elaborate on acute kidney injury? What can you tell me about acute kidney injury? Could you describe what acute kidney injury is? I�d like to know more about acute kidney injury. Can you help? What information do you have on acute kidney injury? Could you provide information on acute kidney injury?,acute kidney injury definition
+acute kidney injury,"for acute kidney injury, what are the causes of acute kidney failure??",acute kidney injury causes
+acute kidney injury,"for acute kidney injury, what are the risk factors for acute kidney failure??",acute kidney injury risks
+acute kidney injury,"for acute kidney injury, what are the symptoms of acute kidney failure??",acute kidney injury symptoms
+acute kidney injury,"for acute kidney injury, how is acute kidney failure diagnosed??",acute kidney injury diagnosis
+acute kidney injury,"for acute kidney injury, what is the treatment for acute kidney failure??",acute kidney injury treatment
+acute kidney injury,"for acute kidney injury, what are the complications of acute kidney failure??",acute kidney injury complications
+acute kidney injury,"for acute kidney injury, how can i prevent acute kidney failure??",acute kidney injury prevention
+mitral valve prolapse,what is mitral valve prolapse? Tell me about mitral valve prolapse? What kind of disease is mitral valve prolapse? Can you elaborate on mitral valve prolapse? What can you tell me about mitral valve prolapse? Could you describe what mitral valve prolapse is? I�d like to know more about mitral valve prolapse. Can you help? What information do you have on mitral valve prolapse? Could you provide information on mitral valve prolapse?,mitral valve prolapse definition
+mitral valve prolapse,"for mitral valve prolapse, what are risk factors for mitral valve prolapse??",mitral valve prolapse risks
+mitral valve prolapse,"for mitral valve prolapse, what are the symptoms of mitral valve prolapse??",mitral valve prolapse symptoms
+mitral valve prolapse,"for mitral valve prolapse, how is mitral valve prolapse diagnosed??",mitral valve prolapse diagnosis
+partial paralysis,what is partial paralysis? Tell me about partial paralysis? What kind of disease is partial paralysis? Can you elaborate on partial paralysis? What can you tell me about partial paralysis? Could you describe what partial paralysis is? I�d like to know more about partial paralysis. Can you help? What information do you have on partial paralysis? Could you provide information on partial paralysis?,partial paralysis definition
+partial paralysis,"for partial paralysis, causes and types of paresis?",partial paralysis causes
+partial paralysis,"for partial paralysis, what are the most common symptoms??",partial paralysis symptoms
+partial paralysis,"for partial paralysis, treatment options?",partial paralysis treatment
+paranoid personality disorder,what is paranoid personality disorder? Tell me about paranoid personality disorder? What kind of disease is paranoid personality disorder? Can you elaborate on paranoid personality disorder? What can you tell me about paranoid personality disorder? Could you describe what paranoid personality disorder is? I�d like to know more about paranoid personality disorder. Can you help? What information do you have on paranoid personality disorder? Could you provide information on paranoid personality disorder?,paranoid personality disorder definition
+paranoid personality disorder,"for paranoid personality disorder, symptoms of paranoia?",paranoid personality disorder symptoms
+paranoid personality disorder,"for paranoid personality disorder, what causes paranoia??",paranoid personality disorder causes
+paranoid personality disorder,"for paranoid personality disorder, how is paranoia diagnosed??",paranoid personality disorder diagnosis
+paroxysmal nocturnal dyspnea,what is paroxysmal nocturnal dyspnea? Tell me about paroxysmal nocturnal dyspnea? What kind of disease is paroxysmal nocturnal dyspnea? Can you elaborate on paroxysmal nocturnal dyspnea? What can you tell me about paroxysmal nocturnal dyspnea? Could you describe what paroxysmal nocturnal dyspnea is? I�d like to know more about paroxysmal nocturnal dyspnea. Can you help? What information do you have on paroxysmal nocturnal dyspnea? Could you provide information on paroxysmal nocturnal dyspnea?,paroxysmal nocturnal dyspnea definition
+paroxysmal nocturnal dyspnea,"for paroxysmal nocturnal dyspnea, what are the symptoms??",paroxysmal nocturnal dyspnea symptoms
+paroxysmal nocturnal dyspnea,"for paroxysmal nocturnal dyspnea, common causes?",paroxysmal nocturnal dyspnea causes
+paroxysmal nocturnal dyspnea,"for paroxysmal nocturnal dyspnea, how it�s diagnosed?",paroxysmal nocturnal dyspnea diagnosis
+pulmonary edema,what is pulmonary edema? Tell me about pulmonary edema? What kind of disease is pulmonary edema? Can you elaborate on pulmonary edema? What can you tell me about pulmonary edema? Could you describe what pulmonary edema is? I�d like to know more about pulmonary edema. Can you help? What information do you have on pulmonary edema? Could you provide information on pulmonary edema?,pulmonary edema definition
+pulmonary edema,"for pulmonary edema, causes of pulmonary edema?",pulmonary edema causes
+pulmonary edema,"for pulmonary edema, symptoms of pulmonary edema?",pulmonary edema symptoms
+pulmonary edema,"for pulmonary edema, diagnosis of pulmonary edema?",pulmonary edema diagnosis
+pulmonary edema,"for pulmonary edema, treatment of pulmonary edema?",pulmonary edema treatment
+pulmonary edema,"for pulmonary edema, risk factors of pulmonary edema?",pulmonary edema risks
+pulmonary edema,"for pulmonary edema, prevention of pulmonary edema?",pulmonary edema prevention
+lymphedema,what is lymphedema? Tell me about lymphedema? What kind of disease is lymphedema? Can you elaborate on lymphedema? What can you tell me about lymphedema? Could you describe what lymphedema is? I�d like to know more about lymphedema. Can you help? What information do you have on lymphedema? Could you provide information on lymphedema?,lymphedema definition
+lymphedema,"for lymphedema, what causes lymphangitis??",lymphedema causes
+lymphedema,"for lymphedema, what are the symptoms of this condition??",lymphedema symptoms
+lymphedema,"for lymphedema, how is lymphangitis diagnosed??",lymphedema diagnosis
+lymphedema,"for lymphedema, what are the complications of lymphangitis??",lymphedema complications
+aortic valve stenosis,what is aortic valve stenosis? Tell me about aortic valve stenosis? What kind of disease is aortic valve stenosis? Can you elaborate on aortic valve stenosis? What can you tell me about aortic valve stenosis? Could you describe what aortic valve stenosis is? I�d like to know more about aortic valve stenosis. Can you help? What information do you have on aortic valve stenosis? Could you provide information on aortic valve stenosis?,aortic valve stenosis definition
+aortic valve stenosis,"for aortic valve stenosis, what are the symptoms of aortic valve stenosis??",aortic valve stenosis symptoms
+aortic valve stenosis,"for aortic valve stenosis, what are the symptoms of aortic valve stenosis in children and infants??",aortic valve stenosis symptoms
+aortic valve stenosis,"for aortic valve stenosis, what causes aortic valve stenosis??",aortic valve stenosis causes
+aortic valve stenosis,"for aortic valve stenosis, who�s at risk for aortic valve stenosis??",aortic valve stenosis risks
+aortic valve stenosis,"for aortic valve stenosis, how is aortic valve stenosis diagnosed??",aortic valve stenosis diagnosis
+fluid overload,what is fluid overload? Tell me about fluid overload? What kind of disease is fluid overload? Can you elaborate on fluid overload? What can you tell me about fluid overload? Could you describe what fluid overload is? I�d like to know more about fluid overload. Can you help? What information do you have on fluid overload? Could you provide information on fluid overload?,fluid overload definition
+fluid overload,"for fluid overload, what are the signs and symptoms of hypervolemia??",fluid overload symptoms
+fluid overload,"for fluid overload, what causes hypervolemia??",fluid overload causes
+fluid overload,"for fluid overload, how is hypervolemia diagnosed??",fluid overload diagnosis
+fluid overload,"for fluid overload, can hypervolemia cause other conditions to develop??",fluid overload causes
+peptic ulcer,what is peptic ulcer? Tell me about peptic ulcer? What kind of disease is peptic ulcer? Can you elaborate on peptic ulcer? What can you tell me about peptic ulcer? Could you describe what peptic ulcer is? I�d like to know more about peptic ulcer. Can you help? What information do you have on peptic ulcer? Could you provide information on peptic ulcer?,peptic ulcer definition
+peptic ulcer,"for peptic ulcer, stomach ulcer symptoms ?",peptic ulcer symptoms
+kidney failure,what is kidney failure? Tell me about kidney failure? What kind of disease is kidney failure? Can you elaborate on kidney failure? What can you tell me about kidney failure? Could you describe what kidney failure is? I�d like to know more about kidney failure. Can you help? What information do you have on kidney failure? Could you provide information on kidney failure?,kidney failure definition
+kidney failure,"for kidney failure, symptoms of kidney failure?",kidney failure symptoms
+kidney failure,"for kidney failure, causes of kidney failure?",kidney failure causes
+kidney failure,"for kidney failure, diagnostic tests?",kidney failure diagnosis
+kidney failure,"for kidney failure, treatment?",kidney failure treatment
+kidney failure,"for kidney failure, complications?",kidney failure complications
+kidney failure,"for kidney failure, kidney failure prevention?",kidney failure prevention
+heart failure,what is heart failure? Tell me about heart failure? What kind of disease is heart failure? Can you elaborate on heart failure? What can you tell me about heart failure? Could you describe what heart failure is? I�d like to know more about heart failure. Can you help? What information do you have on heart failure? Could you provide information on heart failure?,heart failure definition
+heart failure,"for heart failure, what causes heart failure??",heart failure causes
+heart failure,"for heart failure, what are the symptoms of heart failure??",heart failure symptoms
+heart failure,"for heart failure, what are the risk factors for heart failure??",heart failure risks
+heart failure,"for heart failure, how is heart failure diagnosed??",heart failure diagnosis
+heart failure,"for heart failure, how can you prevent heart failure??",heart failure prevention
+heart failure,"for heart failure, what are the complications of heart failure??",heart failure complications
+pulmonary hypertension,what is pulmonary hypertension? Tell me about pulmonary hypertension? What kind of disease is pulmonary hypertension? Can you elaborate on pulmonary hypertension? What can you tell me about pulmonary hypertension? Could you describe what pulmonary hypertension is? I�d like to know more about pulmonary hypertension. Can you help? What information do you have on pulmonary hypertension? Could you provide information on pulmonary hypertension?,pulmonary hypertension definition
+pulmonary hypertension,"for pulmonary hypertension, symptoms of cor pulmonale?",pulmonary hypertension symptoms
+pulmonary hypertension,"for pulmonary hypertension, treatment of cor pulmonale?",pulmonary hypertension treatment
+pulmonary hypertension,"for pulmonary hypertension, causes of cor pulmonale?",pulmonary hypertension causes
+pulmonary hypertension,"for pulmonary hypertension, diagnosing cor pulmonale?",pulmonary hypertension diagnosis
+pulmonary hypertension,"for pulmonary hypertension, complications of cor pulmonale?",pulmonary hypertension complications
+dysphagia,what is dysphagia? Tell me about dysphagia? What kind of disease is dysphagia? Can you elaborate on dysphagia? What can you tell me about dysphagia? Could you describe what dysphagia is? I�d like to know more about dysphagia. Can you help? What information do you have on dysphagia? Could you provide information on dysphagia?,dysphagia definition
+dysphagia,"for dysphagia, what causes swallowing difficulty??",dysphagia causes
+dysphagia,"for dysphagia, signs and symptoms of dysphagia?",dysphagia symptoms
+dysphagia,"for dysphagia, how is swallowing difficulty diagnosed??",dysphagia diagnosis
+dysphagia,"for dysphagia, home treatment?",dysphagia treatment
+Pneumocystis pneumonia,what is Pneumocystis pneumonia? Tell me about Pneumocystis pneumonia? What kind of disease is Pneumocystis pneumonia? Can you elaborate on Pneumocystis pneumonia? What can you tell me about Pneumocystis pneumonia? Could you describe what Pneumocystis pneumonia is? I�d like to know more about Pneumocystis pneumonia. Can you help? What information do you have on Pneumocystis pneumonia? Could you provide information on Pneumocystis pneumonia?,Pneumocystis pneumonia definition
+Pneumocystis pneumonia,"for Pneumocystis pneumonia, causes of pneumocystis pneumonia?",Pneumocystis pneumonia causes
+Pneumocystis pneumonia,"for Pneumocystis pneumonia, symptoms of pneumocystis pneumonia?",Pneumocystis pneumonia symptoms
+Pneumocystis pneumonia,"for Pneumocystis pneumonia, diagnosis of pneumocystis pneumonia?",Pneumocystis pneumonia diagnosis
+Pneumocystis pneumonia,"for Pneumocystis pneumonia, treatments options for pneumocystis pneumonia?",Pneumocystis pneumonia treatment
+Pneumocystis pneumonia,"for Pneumocystis pneumonia, cost and coverage of pneumocystis pneumonia treatments?",Pneumocystis pneumonia treatment
+alcohol use disorder,what is alcohol use disorder? Tell me about alcohol use disorder? What kind of disease is alcohol use disorder? Can you elaborate on alcohol use disorder? What can you tell me about alcohol use disorder? Could you describe what alcohol use disorder is? I�d like to know more about alcohol use disorder. Can you help? What information do you have on alcohol use disorder? Could you provide information on alcohol use disorder?,alcohol use disorder definition
+alcohol use disorder,"for alcohol use disorder, what causes it??",alcohol use disorder causes
+alcohol use disorder,"for alcohol use disorder, what are the risk factors??",alcohol use disorder risks
+alcohol use disorder,"for alcohol use disorder, what are the symptoms??",alcohol use disorder symptoms
+alcohol use disorder,"for alcohol use disorder, professional diagnosis?",alcohol use disorder diagnosis
+alcohol use disorder,"for alcohol use disorder, how can you prevent alcohol use disorder??",alcohol use disorder prevention
+emotional lability,what is emotional lability? Tell me about emotional lability? What kind of disease is emotional lability? Can you elaborate on emotional lability? What can you tell me about emotional lability? Could you describe what emotional lability is? I�d like to know more about emotional lability. Can you help? What information do you have on emotional lability? Could you provide information on emotional lability?,emotional lability definition
+emotional lability,"for emotional lability, what are the symptoms??",emotional lability symptoms
+emotional lability,"for emotional lability, other causes of emotional lability?",emotional lability causes
+emotional lability,"for emotional lability, how is it diagnosed??",emotional lability diagnosis
+bedsore,what is bedsore? Tell me about bedsore? What kind of disease is bedsore? Can you elaborate on bedsore? What can you tell me about bedsore? Could you describe what bedsore is? I�d like to know more about bedsore. Can you help? What information do you have on bedsore? Could you provide information on bedsore?,bedsore definition
+bedsore,"for bedsore, symptoms?",bedsore symptoms
+bedsore,"for bedsore, causes?",bedsore causes
+bedsore,"for bedsore, risk factors?",bedsore risks
+bedsore,"for bedsore, diagnosis?",bedsore diagnosis
+bedsore,"for bedsore, treatment?",bedsore treatment
+bedsore,"for bedsore, prevention?",bedsore prevention
