@@ -1,7 +1,7 @@
 # HealifyAI - LLM based Healthcare System
 https://healifyai-llm.onrender.com/ <br><br>
 
-(work in progress) <br>
+(Project complete. documentation is work in progress) <br>
 This project aims to develop a comprehensive healthcare system that leverages the power of Machine Learning (ML) and LLM to provide in-depth answers to medical health condition queries and can predict diseases based on patient symptoms.
 
 The system consists of two main modules:
