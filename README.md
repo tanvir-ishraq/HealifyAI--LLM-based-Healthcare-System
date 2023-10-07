@@ -7,7 +7,7 @@ The system consists of two main Modules:
 * HealifyLLM - QA Language Model
 <!-- GETTING STARTED <br> -->
 
- <br>
+
  
 ## Data Collection & Processing
 <div align="center">  <strong> Healify-LLM: </strong> </div> 
@@ -26,6 +26,7 @@ The Bio_ClinicalBERT model was trained on a kaggle dataset from
 The massive NLP data were scraped with scraper/nlp_dataset_scraper.py and stored in scraper/quote-nlp-dataset-scraped.csv. I employed an effecient tracking management system for scrap of massive NLP data to prevent data loss.  -->
 
 
+
 ## Model Training:
 <div align="center">  <strong> Healify-LLM: </strong> </div> 
 
@@ -41,14 +42,19 @@ __Training Procedures:__ We used `HuggingFace` for the model and imported Fast.a
 Model was trained with `sklearn`'s ensemble random forest algorithm leveraging mutiple decision tree algorithms. <br>
 
 
+
 ## Model Deployment
 A `Gradio App` was coded to deploy the LLM model in HuggingFace. The implementation can be found in `deployment_hf` folder and online [here](https://huggingface.co/spaces/tanvir-ishraq/healifyLLM-classifier)
+
+
 
 
 ## Live Website Deployment
 Deployed a Flask App built to take text content and show the themes and recommendations as output. Check `flask-deployment` branch. The website is live [here](https://textthema-multi-classifier.onrender.com/) 
 
 <img src = "github_img/server_delpoy.png" width="1130" >
+
+
 
 
 ## Future work and limitations
