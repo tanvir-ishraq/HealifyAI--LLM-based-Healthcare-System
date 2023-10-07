@@ -10,7 +10,7 @@ The system consists of two main Modules:
 
  
 ## Data Collection & Processing
-<div align="center">  <strong> Healify-LLM: </strong> </div> 
+<div align="center">  <strong> Healify-LLM model: </strong> </div> 
 
 Engineered brand new LLM Corpus Dataset of size 6800 samples from scratch. Scraping based on healthline.com; To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of user questions.  <br> <br>
 <!-- The LLM is trained on my from-scratch scraped corpus dataset(based on healthline.com ) of medical queries & professional solutions
@@ -29,7 +29,7 @@ The massive NLP data were scraped with scraper/nlp_dataset_scraper.py and stored
 
 
 ## Model Training:
-<div align="center">  <strong> Healify-LLM: </strong> </div> 
+<div align="center">  <strong> Healify-LLM model: </strong> </div> 
 
 __Hyperparameters__: We used a batch size of 8. And learning rate was set dynamically using `Fast.ai`'s `learning rate finder` at every stage. <br>
 
