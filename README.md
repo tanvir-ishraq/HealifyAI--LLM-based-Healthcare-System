@@ -36,7 +36,7 @@ The massive NLP data were scraped with scraper/nlp_dataset_scraper.py and stored
 ## Model Training:
 <div align="center">  <strong> Healify-LLM model: </strong> </div> 
 
-__Hyperparameters__: We used a batch size of 8. And learning rate was set dynamically using `Fast.ai`'s `learning rate finder` at every stage. <br>
+__Hyperparameters__: We used a `batch size` of 8. And `learning rate` was set dynamically using `Fast.ai`'s `learning rate finder` at every stage. <br>
 
 __Training Procedures:__ We used `HuggingFace` for the model and imported Fast.ai for hyperparameter tuing
 * RoBERTa model has been used because the QA dataset is complex.
