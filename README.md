@@ -5,9 +5,10 @@ https://healifyai-llm.onrender.com/ <br><br>
 (Project complete. documentation is work in progress) <br>
 
 ## About The Project
-This project aims to develop a comprehensive healthcare system that leverages the power of Machine Learning (ML) and LLM to provide in-depth answers to medical health condition queries and can predict diseases based on patient symptoms.
-
+This project aims to develop a comprehensive healthcare system to aid healthcare professionals. While also providing knowledge to patients. It leverages the power of LLM plus traditional Machine Learning (ML) to provide in-depth answers to medical health condition queries and can predict diseases based on patient symptoms.
 The system consists of two main modules:
+* Disease Prediction Model
+* HealifyLLM QA Language Model
 
 Disease Prediction Model: This component uses traditional ML algorithm to predict potential diseases based on the symptoms input by the user. Covering a total of 135 categories of common and as well as rare yet important health conditions, diseases, psychology disorders such as diabetes, dehydration, depression, bipolar disorder, HIV, breast cancer, stroke, pneumonia, flu, asthma, obesity and so on. The model is trained on a large dataset of hundreds to thousands of patient records (denoted by frequency in dataset) to ensure reliable predictions based on NY Hospital based [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/). 
 
