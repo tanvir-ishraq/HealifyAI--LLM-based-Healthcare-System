@@ -1,4 +1,7 @@
-# HealifyAI - LLM based Healthcare System
+<div align="center">
+<h1 align="center">HealifyAI - LLM based Healthcare System</h1>
+</div> 
+
 https://healifyai-llm.onrender.com/ <br><br>
 
 (Project complete. documentation is work in progress) <br>
