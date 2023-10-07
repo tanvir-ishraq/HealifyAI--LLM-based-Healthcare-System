@@ -1,11 +1,11 @@
 <div align="center">
 <h1 align="center">HealifyAI - LLM based Healthcare System</h1>
 </div> 
-https://healifyai-llm.onrender.com/ <br><br>
-(Project complete. documentation is work in progress) <br>
+https://healifyai-llm.onrender.com/ <br>
+(Project complete. documentation is work in progress) 
 
 ## About The Project
-This project aims to develop a comprehensive healthcare system to aid healthcare professionals. While also providing knowledge to patients. It leverages the power of LLM plus traditional Machine Learning (ML) to provide in-depth answers to medical health condition queries and can predict diseases based on patient symptoms.
+This project aims to develop a comprehensive healthcare system to aid healthcare professionals. While also providing knowledge to patients. It leverages the power of LLM plus traditional Machine Learning (ML) to provide in-depth answers to medical health condition queries and can predict diseases based on patient symptoms.<br>
 The system consists of two main modules:
 * Disease Prediction Model
 * HealifyLLM QA Language Model
