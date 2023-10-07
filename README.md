@@ -56,7 +56,7 @@ A `Gradio App` was coded to deploy the LLM model in HuggingFace. The implementat
 
 
 ## Live Website Deployment
-Deployed a Flask App built to porvide user interface to users. Check the `flask-deployment` github branch. The website is live [here](healifyai-llm.onrender.com) 
+Deployed a Flask App, built to porvide user interface to users. Check the `flask-deployment` github branch. The website is live [here](healifyai-llm.onrender.com) 
 
 <img src = "github_img/server_delpoy.png" width="1130" >
 
