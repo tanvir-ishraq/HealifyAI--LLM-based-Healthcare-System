@@ -5,31 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HealifyAI project</title>
 
-    <!-- <link rel="stylesheet" href="https://unpkg.com/select-pure/dist/select-pure.css">
-    <script src="https://unpkg.com/select-pure/dist/bundle.js"></script> -->
     <!-- bootstrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- never delete  bootstrap 4 --> 
 
-    <!-- working font awesome: -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!--  font awesome: -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     
 <style>
+/* google font import */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-/* @font-face { 
-    font-family: 'WaterBrushgoogle';
-    src: url(fonts/WaterBrush-Regular.ttf);
-}
-
-body {
-    font-family: AlternateGothicPro-NoThree;
-    background-color: #F7EEDC;  
-   
-} */
-
-    
+/* don't display scrollbar */
 body::-webkit-scrollbar { /* chorme etc*/
     display: none;
 }
@@ -42,14 +31,11 @@ body {
     color: black;
 
     background-image: url('/static/img/AI_healthcare.jpg'); 
-
-    /*("img/E_background.svg"); */
     background-repeat: no-repeat;
-    background-size: cover; 
-    
-    /* contain auto cover */
-            /* background-attachment: fixed; */
+    background-size: auto 100%;
+    /* background-size: cover;  */
 }
+
 .glass{
     
     /* width: 70vw;*/
@@ -67,7 +53,9 @@ body {
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
 nav {
     background-color: rgb(18, 18, 39);
     font-family: 'Open Sans', sans-serif;
@@ -77,7 +65,12 @@ nav {
     min-height: 36vh;
 }
 .LLM {
-    min-height: 56vh;
+    min-height: 54vh;
+}
+.contact {
+    color:white !important;
+    font-size: 16px;
+    /* text-decoration: underline; */
 }
 
 </style>
@@ -91,34 +84,38 @@ nav {
     <a class="navbar-brand"  href="#">
         <h4 class="font-weight-bold">
             HealifyAI project
-        </h4>
-        
+        </h4>  
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mx-auto text-center">
-        <!-- <a class="nav-item nav-link px-5  active" href="#hero-banner" >Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link px-5 " href="#who-we-are-about-us">who we are</a>
-        <a class="nav-item nav-link px-5 " href="#life-at-jde">life at jde</a>
-        <a class="nav-item nav-link px-5 " href="#join-us">join us</a> -->
+
+        <div class="navbar-nav ml-auto roboto-font">
+            <a class="nav-item nav-link contact mx-1" href="https:/linkedin.com/in/tanvir-ishraq-khan">
+                <i class="fa fa-linkedin" ></i> LinkedIn
+            </a>
+             
+            <a class="nav-item nav-link contact mx-1" href="https://github.com/tanvir-ishraq/HealifyAI--LLM-based-Healthcare-System" >
+                <i class="fa fa-github " ></i> GitHub
+            </a>
+
         </div>
     </div>
-    </nav>    
+</nav>    
 
-<section class="symptom_interface my-3">
+<section class="symptom_interface ">
 <div class="container-fluid">
 <div class="row" >
 
     <div class="col-md-2"></div>
 
-    <div class="col-md-4 glass disease mx-2">
+    <div class="col-md-4 glass disease ml-2 mr-1 my-3">
         
         <form action="/" method="POST">
             <label for="symptoms">
-                <h5 class="font-weight-bold">Enter your symptoms:</h5>
+                <h5 class="font-weight-bold roboto-font">Enter your symptoms:</h5>
             </label><br>
             <p class="mb-1" style="font-size: 15px; font-style: italic;">
                 You have to enter multiple symptoms. Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.
@@ -132,8 +129,8 @@ nav {
             </form>
     </div>
 
-    <div class="col-md-4 result glass disease ">
-      <h5 class="font-weight-bold">Heath condition Prediction result: </h5>  
+    <div class="col-md-4 result glass disease mr-2 ml-1 my-3">
+      <h5 class="font-weight-bold roboto-font">Heath condition Prediction result: </h5>  
       <table class="w-100">
         <tbody>
             {% if predictions %}
@@ -162,7 +159,7 @@ nav {
     <div class="col-md-2"></div>
 
     <div class="col-md-8 glass LLM mx-2">
-        <h3 class="text-center font-weight-bold">
+        <h3 class="text-center font-weight-bold ">
            Healify-LLM  
         </h3>
         <p class="text-center font-italic" style="font-size: 16px;">Chat with Language model </p>
@@ -188,13 +185,9 @@ nav {
 </div>
 </section>
 
+<!-- bootstrap 4 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
 </body>
 </html>
-
-
-
-
-
-
-
