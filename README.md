@@ -21,7 +21,7 @@ enabling it to provide detailed and accurate answers to a wide range of medical 
 
 <div align="center">  <strong> Disease Model: </strong> </div> 
 
-The model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database with over hundreds of patient records at the New York Presbyterian Hospital. Covering 135 Categories of common and as well as rare yet important health conditions. From a total of 400 Symptoms. <br>
+The model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database with over hundreds of patient records at the New York Presbyterian Hospital. Covering 135 Categories of important common but also rare diseases/health conditions. From a total of 400 Symptoms. <br>
 
 Had to process Disease dataset to clean the noisy symptoms, UMLScode etc. <br>
 LLM dataset processing required data seperation, sample addition.<br>
