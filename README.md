@@ -6,9 +6,9 @@ https://healifyai-llm.onrender.com/ <br>
 
 ## About The Project
 This project aims to develop a comprehensive healthcare system to aid healthcare professionals. While also providing knowledge to patients. It uses a LLM plus traditional Machine Learning (ML) to provide in-depth answers to medical health condition queries and can predict diseases based on patient symptoms.<br>
-The system consists of two main modules:
+The system consists of two main Modules:
 * Disease Prediction Model
-* HealifyLLM QA Language Model
+* HealifyLLM - QA Language Model
 <!-- GETTING STARTED <br> -->
 
 ## Data Collection & Processing
@@ -23,7 +23,22 @@ The Bio_ClinicalBERT model was trained on a kaggle dataset from [Disease-Symptom
  <!-- files 
 The massive NLP data were scraped with scraper/nlp_dataset_scraper.py and stored in scraper/quote-nlp-dataset-scraped.csv. I employed an effecient tracking management system for scrap of massive NLP data to prevent data loss.  -->
 
-<br> 
+## Model Training:
+__Disease Model__: Model was trained with `sklearn`'s ensemble random forest algorithm leveraging mutiple decision tree algorithms. <br>
+
+__Healify-LLM:__
+__Hyperparameters__: We used a batch size of 8. And learning rate was set dynamically using `Fast-ai`'s `learning rate finder` at every stage. 
+__training Procedures:__
+We used `RoBERTa` (built upon the popular BERT) because it's the QA dataset is complex.
+training was done using ULMFiT research paper's 3-stage training policy.
+The model was fine-tuned with 6800 samples with around 98% accuracy in 12 epochs. The model was tracked to avoid overfitting observing loss.
+The model was trained using NVIDIA T4 GPU .
+
+
+
+
+training Procedures
+
 
 <!--
 Disease Prediction Model: This component uses traditional ML algorithm to predict potential diseases based on the symptoms input by the user. Covering a total of 135 categories of common and as well as rare yet important health conditions, diseases, psychology disorders such as diabetes, dehydration, depression, bipolar disorder, HIV, breast cancer, stroke, pneumonia, flu, asthma, obesity and so on. The model is trained on a large dataset of hundreds to thousands of patient records (denoted by frequency in dataset) to ensure reliable predictions based on NY Hospital based [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/). 
