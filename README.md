@@ -12,24 +12,30 @@ The system consists of two main modules:
 <!-- GETTING STARTED <br> -->
 
 ## training Data Collection
-
-
-
-
-
-<h4 align="center">HealifyLLM QA Language Model</h4>
-The Bio_ClinicalBERT model was trained on a kaggle dataset from from MIMIC III, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words).<br> <br>
+<h4 align="center">HealifyLLM QA Language Model:</h4>
+Engineered new LLM Corpus Dataset of size 6800 from scratch. Scraping based on healthline.com; To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of medical questions.
+<!-- The LLM is trained on my from-scratch scraped corpus dataset(based on healthline.com ) of medical queries & professional solutions
+to enhance the corpus for user experience, Sample addition was done with python script .
+first urls scraping was done from google
+enabling it to provide detailed and accurate answers to a wide range of medical questions. -->
+<h4 align="center">Disease Model:</h4>
+The Bio_ClinicalBERT model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words). 
+Covering a total of 135 categories of common and as well as rare yet important health conditions
 
 <div align="center">HealifyLLM QA Language Model </div>
-The Bio_ClinicalBERT model was trained on a kaggle dataset from from MIMIC III, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words).<br>
+The Bio_ClinicalBERT model was trained on a kaggle dataset from MIMIC III, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words).<br>
 
 **HealifyLLM QA Language Model:** <br>
+Engineered new LLM Query Dataset of size 6000+z
 The Bio_ClinicalBERT model was trained on a kaggle dataset from from MIMIC III, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words).<br><br>
 **Disease Model:** <br>
-The Bio_ClinicalBERT model was trained on a kaggle dataset from from MIMIC III, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words).<br>
+
+<br> 
 
 <!--
 Disease Prediction Model: This component uses traditional ML algorithm to predict potential diseases based on the symptoms input by the user. Covering a total of 135 categories of common and as well as rare yet important health conditions, diseases, psychology disorders such as diabetes, dehydration, depression, bipolar disorder, HIV, breast cancer, stroke, pneumonia, flu, asthma, obesity and so on. The model is trained on a large dataset of hundreds to thousands of patient records (denoted by frequency in dataset) to ensure reliable predictions based on NY Hospital based [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/). 
+
+
 
 QA Language Model: This component uses a Language Model (LLM) to answer medical queries from users. The LLM is trained on my from-scratch scraped then enhanced corpus dataset of medical queries & professional solutions, enabling it to provide detailed and accurate answers to a wide range of medical questions. Sample addition was done to enhance the dataset for user experience. Covering urgent topics of diagnosis, treatment, prevention, causes, risks, complications, details of symptoms, disease description.
 
