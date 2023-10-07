@@ -45,18 +45,18 @@ __Training Procedures:__ We used `HuggingFace` for the model and imported Fast.a
 
 <div align="center">  <strong> Disease Model: </strong> </div> 
 
-Model was trained with `sklearn`'s ensemble random forest algorithm leveraging mutiple decision tree algorithms. <br>
+Model was trained with `sklearn`'s ensemble random forest algorithm leveraging mutiple decision tree algorithms. This model predicts potential diseases based on the symptoms input.<br>
 
 
 
 ## Model Deployment
-A `Gradio App` was coded to deploy the LLM model in HuggingFace. The implementation can be found in `deployment_hf` folder and online [here](healifyai-llm.onrender.com/)
+A `Gradio App` was coded to deploy the LLM model in HuggingFace. The implementation can be found in `deployment_hf` folder and online [here](https://huggingface.co/spaces/tanvir-ishraq/healifyLLM-classifier)
 
 
 
 
 ## Live Website Deployment
-Deployed a Flask App built to porvide user interface to users. Check the `flask-deployment` github branch. The website is live [here](https://textthema-multi-classifier.onrender.com/) 
+Deployed a Flask App built to porvide user interface to users. Check the `flask-deployment` github branch. The website is live [here](healifyai-llm.onrender.com) 
 
 <img src = "github_img/server_delpoy.png" width="1130" >
 
@@ -69,8 +69,6 @@ Please note that while this system can provide valuable insights and information
 
 <!--
 Disease Prediction Model: This component uses traditional ML algorithm to predict potential diseases based on the symptoms input by the user. Covering a total of 135 categories of common and as well as rare yet important health conditions, diseases, psychology disorders such as diabetes, dehydration, depression, bipolar disorder, HIV, breast cancer, stroke, pneumonia, flu, asthma, obesity and so on. The model is trained on a large dataset of hundreds to thousands of patient records (denoted by frequency in dataset) to ensure reliable predictions based on NY Hospital based [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/). 
-
-
 
 QA Language Model: This component uses a Language Model (LLM) to answer medical queries from users. The LLM is trained on my from-scratch scraped then enhanced corpus dataset of medical queries & professional solutions, enabling it to provide detailed and accurate answers to a wide range of medical questions. Sample addition was done to enhance the dataset for user experience. Covering urgent topics of diagnosis, treatment, prevention, causes, risks, complications, details of symptoms, disease description.
 
