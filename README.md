@@ -11,7 +11,7 @@ The system consists of two main modules:
 * HealifyLLM QA Language Model
 <!-- GETTING STARTED <br> -->
 
-## training Data Collection
+## Data Collection & Processing
 <h4 align="center">HealifyLLM QA Language Model:</h4>
 Engineered new LLM Corpus Dataset of size 6800 from scratch. Scraping based on healthline.com; To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of medical questions.
 <!-- The LLM is trained on my from-scratch scraped corpus dataset(based on healthline.com ) of medical queries & professional solutions
@@ -19,8 +19,8 @@ to enhance the corpus for user experience, Sample addition was done with python 
 first urls scraping was done from google
 enabling it to provide detailed and accurate answers to a wide range of medical questions. -->
 <h4 align="center">Disease Model:</h4>
-The Bio_ClinicalBERT model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words). 
-Covering a total of 135 categories of common and as well as rare yet important health conditions
+The Bio_ClinicalBERT model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database from hundreds of records at the New York Presbyterian Hospital. Covering 135 categories of common and as well as rare yet important health conditions. From a list 400 symptoms.
+
 
 <div align="center">HealifyLLM QA Language Model </div>
 The Bio_ClinicalBERT model was trained on a kaggle dataset from MIMIC III, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words).<br>
