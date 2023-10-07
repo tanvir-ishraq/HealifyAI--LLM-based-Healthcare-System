@@ -45,13 +45,13 @@ Model was trained with `sklearn`'s ensemble random forest algorithm leveraging m
 
 
 ## Model Deployment
-A `Gradio App` was coded to deploy the LLM model in HuggingFace. The implementation can be found in `deployment_hf` folder and online [here](https://huggingface.co/spaces/tanvir-ishraq/healifyLLM-classifier)
+A `Gradio App` was coded to deploy the LLM model in HuggingFace. The implementation can be found in `deployment_hf` folder and online [here](healifyai-llm.onrender.com/)
 
 
 
 
 ## Live Website Deployment
-Deployed a Flask App built to take text content and show the themes and recommendations as output. Check `flask-deployment` branch. The website is live [here](https://textthema-multi-classifier.onrender.com/) 
+Deployed a Flask App built to porvide user interface to users. Check the `flask-deployment` github branch. The website is live [here](https://textthema-multi-classifier.onrender.com/) 
 
 <img src = "github_img/server_delpoy.png" width="1130" >
 
