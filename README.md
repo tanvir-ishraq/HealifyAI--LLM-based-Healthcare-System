@@ -13,26 +13,36 @@ The system consists of two main Modules:
 
 ## Data Collection & Processing
 <h4 align="center">Healify-LLM:</h4>
+
 Engineered new LLM Corpus Dataset of size 6800 samples from scratch. Scraping based on healthline.com; To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of user questions.
 <!-- The LLM is trained on my from-scratch scraped corpus dataset(based on healthline.com ) of medical queries & professional solutions
 to enhance the corpus for user experience, Sample addition was done with python script .
 first urls scraping was done from google
 enabling it to provide detailed and accurate answers to a wide range of medical questions. -->
+
 <h4 align="center">Disease Model:</h4>
-The Bio_ClinicalBERT model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database of over hundreds of records at the New York Presbyterian Hospital. Covering 135 Categories of common and as well as rare yet important health conditions. From a total of 400 Symptoms. <br>
+
+The Bio_ClinicalBERT model was trained on a kaggle dataset from 
+[Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database of over hundreds of patient records at the New York Presbyterian Hospital. Covering 135 Categories of common and as well as rare yet important health conditions. From a total of 400 Symptoms. <br>
  <!-- files 
 The massive NLP data were scraped with scraper/nlp_dataset_scraper.py and stored in scraper/quote-nlp-dataset-scraped.csv. I employed an effecient tracking management system for scrap of massive NLP data to prevent data loss.  -->
 
-## Model Training:
-__Disease Model__: Model was trained with `sklearn`'s ensemble random forest algorithm leveraging mutiple decision tree algorithms. <br>
 
-__Healify-LLM:__
-__Hyperparameters__: We used a batch size of 8. And learning rate was set dynamically using `Fast-ai`'s `learning rate finder` at every stage. 
-__training Procedures:__
-We used `RoBERTa` (built upon the popular BERT) because it's the QA dataset is complex.
-training was done using ULMFiT research paper's 3-stage training policy.
-The model was fine-tuned with 6800 samples with around 98% accuracy in 12 epochs. The model was tracked to avoid overfitting observing loss.
-The model was trained using NVIDIA T4 GPU .
+
+
+## Model Training:
+<h4 align="center">Healify-LLM:</h4>
+
+__Hyperparameters__: We used a batch size of 8. And learning rate was set dynamically using `Fast.ai`'s `learning rate finder` at every stage. <br> <br>
+__Training Procedures:__
+We used `HuggingFace` for the model and imported Fast.ai for hyperparameter tuing
+* We used `RoBERTa` (built upon the popular BERT model) because the QA dataset is complex.
+* training was done using [ULMFiT Research Paper](https://arxiv.org/abs/1801.06146)'s 3-stage training policy.
+* The model was fine-tuned with 6800 samples with around 98% accuracy in 12 epochs. The model was tracked to avoid overfitting observing loss. The model was trained using NVIDIA T4 GPU.
+
+<h4 align="center">Disease Model:</h4>
+
+Model was trained with `sklearn`'s ensemble random forest algorithm leveraging mutiple decision tree algorithms. <br>
 
 
 
