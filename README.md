@@ -12,14 +12,17 @@ The system consists of two main modules:
 <!-- GETTING STARTED <br> -->
 
 ## Data Collection & Processing
-<h4 align="center">HealifyLLM QA Language Model:</h4>
-Engineered new LLM Corpus Dataset of size 6800 from scratch. Scraping based on healthline.com; To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of medical questions.
+<h4 align="center">Healify-LLM:</h4>
+Engineered new LLM Corpus Dataset of size 6800 samples from scratch. Scraping based on healthline.com; To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of user questions.
 <!-- The LLM is trained on my from-scratch scraped corpus dataset(based on healthline.com ) of medical queries & professional solutions
 to enhance the corpus for user experience, Sample addition was done with python script .
 first urls scraping was done from google
 enabling it to provide detailed and accurate answers to a wide range of medical questions. -->
 <h4 align="center">Disease Model:</h4>
-The Bio_ClinicalBERT model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database from hundreds of records at the New York Presbyterian Hospital. Covering 135 categories of common and as well as rare yet important health conditions. From a list 400 symptoms.
+The Bio_ClinicalBERT model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database of over hundreds of records at the New York Presbyterian Hospital. Covering 135 Categories of common and as well as rare yet important health conditions. From a total of 400 Symptoms.
+
+
+
 
 
 <div align="center">HealifyLLM QA Language Model </div>
