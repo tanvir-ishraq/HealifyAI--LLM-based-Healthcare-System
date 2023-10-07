@@ -22,6 +22,7 @@ enabling it to provide detailed and accurate answers to a wide range of medical 
 
 The model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database with over hundreds of patient records at the New York Presbyterian Hospital. Covering 135 Categories of common and as well as rare yet important health conditions. From a total of 400 Symptoms. <br>
 
+Had to process Disease dataset to clean the noisy symptoms, UMLScode etc. LLM dataset processing required data seperation, sample addition.<br>
 The scraping can be found in `scraper` folder. All final datasets can be found in `datasets` folder. All cleaning and processing found in `notebooks` folder.
  <!-- files 
 The massive NLP data were scraped with scraper/nlp_dataset_scraper.py and stored in scraper/quote-nlp-dataset-scraped.csv. I employed an effecient tracking management system for scrap of massive NLP data to prevent data loss.  -->
