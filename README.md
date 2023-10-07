@@ -20,18 +20,8 @@ first urls scraping was done from google
 enabling it to provide detailed and accurate answers to a wide range of medical questions. -->
 <h4 align="center">Disease Model:</h4>
 The Bio_ClinicalBERT model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database of over hundreds of records at the New York Presbyterian Hospital. Covering 135 Categories of common and as well as rare yet important health conditions. From a total of 400 Symptoms.
-
-
-
-
-
-<div align="center">HealifyLLM QA Language Model </div>
-The Bio_ClinicalBERT model was trained on a kaggle dataset from MIMIC III, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words).<br>
-
-**HealifyLLM QA Language Model:** <br>
-Engineered new LLM Query Dataset of size 6000+z
-The Bio_ClinicalBERT model was trained on a kaggle dataset from from MIMIC III, a database containing electronic health records from ICU patients at the Beth Israel Hospital in Boston, MA. For more details on MIMIC, see here. All notes from the NOTEEVENTS table were included (~880M words).<br><br>
-**Disease Model:** <br>
+ <!-- files 
+The massive NLP data were scraped with scraper/nlp_dataset_scraper.py and stored in scraper/quote-nlp-dataset-scraped.csv. I employed an effecient tracking management system for scrap of massive NLP data to prevent data loss.  -->
 
 <br> 
 
