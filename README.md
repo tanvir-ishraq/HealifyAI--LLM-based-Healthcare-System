@@ -12,7 +12,8 @@ The system consists of two main Modules:
 ## Data Collection, Cleaning, Prepocessing
 <div align="center">  <strong> Healify-LLM model: </strong> </div> 
 
-Engineered brand new LLM Corpus Dataset of size 6800 samples from scratch. Scraping based on healthline.com; To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of user questions.  <br> <br>
+* Engineered brand new LLM Corpus Dataset of size 6800 samples from scratch. Scraping based on healthline.com;
+* To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of user questions.  <br>
 <!-- The LLM is trained on my from-scratch scraped corpus dataset(based on healthline.com ) of medical queries & professional solutions
 to enhance the corpus for user experience, Sample addition was done with python script .
 first urls scraping was done from google
@@ -22,8 +23,11 @@ enabling it to provide detailed and accurate answers to a wide range of medical 
 
 The model was trained on a kaggle dataset from [Disease-Symptom Knowledge Database](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB), a database with over hundreds of patient records at the New York Presbyterian Hospital. Covering 135 Categories of common and as well as rare yet important health conditions. From a total of 400 Symptoms. <br>
 
-Had to process Disease dataset to clean the noisy symptoms, UMLScode etc. LLM dataset processing required data seperation, sample addition.<br>
-The scraping can be found in `scraper` folder. All final datasets can be found in `datasets` folder. All cleaning and processing found in `notebooks` folder.
+Had to process Disease dataset to clean the noisy symptoms, UMLScode etc. <br>
+LLM dataset processing required data seperation, sample addition.<br>
+The scraping can be found in `scraper` folder. <br> 
+All final datasets stored in `datasets` folder. <br> 
+All cleaning and processing found in `notebooks` folder. 
  <!-- files 
 The massive NLP data were scraped with scraper/nlp_dataset_scraper.py and stored in scraper/quote-nlp-dataset-scraped.csv. I employed an effecient tracking management system for scrap of massive NLP data to prevent data loss.  -->
 
@@ -37,7 +41,7 @@ __Hyperparameters__: We used a batch size of 8. And learning rate was set dynami
 __Training Procedures:__ We used `HuggingFace` for the model and imported Fast.ai for hyperparameter tuing
 * RoBERTa model has been used because the QA dataset is complex.
 * Training was done using [ULMFiT Research Paper](https://arxiv.org/abs/1801.06146)'s 3-stage training policy.
-* The model was fine-tuned with 6800 samples with around 98% accuracy in 12 epochs. The model was tracked to avoid overfitting observing loss. The model was trained using NVIDIA T4 GPU.  <br> <br>
+* The model was fine-tuned with 6800 samples with around 98% accuracy in 12 epochs. The model was tracked to avoid overfitting observing loss. The model was trained using NVIDIA T4 GPU.  <br> 
 
 <div align="center">  <strong> Disease Model: </strong> </div> 
 
