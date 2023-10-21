@@ -12,7 +12,7 @@ with open('rf_model.pkl', 'rb') as file:
 with open("columns_encoded.json", "r") as f:
     columns_encoding = json.load(f) 
 
-
+ui_symptoms_sorted = sorted([symptom.capitalize() for symptom in disease.keys()])
 
 # Flask
 app = Flask(__name__)
@@ -42,7 +42,7 @@ def index():
             predictions = {model.classes_[idx] : int(probs[0][idx] *100)    for idx in top_5_indices}
             return render_template('index.html', 
                                    predictions=predictions,
-                                   symptoms_collection=columns_encoding.keys(),
+                                   symptoms_collection = ui_symptoms_sorted,
                                    )
 
         elif 'LLM_button' in request.form:
@@ -65,11 +65,11 @@ def index():
             return render_template("index.html", 
                                    input_text=input_text, 
                                    LLM_answer=LLM_answer,
-                                   symptoms_collection=columns_encoding.keys())   
+                                   symptoms_collection = ui_symptoms_sorted)   
     
     else:
         return render_template("index.html", 
-                               symptoms_collection=columns_encoding.keys(),
+                               symptoms_collection = ui_symptoms_sorted,
                                predictions=predictions,
                                LLM_answer=LLM_answer)
 
