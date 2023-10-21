@@ -133,7 +133,10 @@ nav {
                 {% for disease, probability in predictions.items() %}
                 <tr>
                     <td class="px-3">{{ disease }} :  </td>
-                    <td>{{ probability }}%</td>
+                    <td>{{probability}}% {% if probability < 50 %}
+                                        <span style="font-size: 12px;">(unlikely)</span>
+                                        {% endif %}
+                    </td>
                 </tr>
                 {% endfor %}
             {% endif %}
