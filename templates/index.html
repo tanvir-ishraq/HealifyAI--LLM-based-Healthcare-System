@@ -114,9 +114,9 @@ nav {
                 <h5 class="font-weight-bold roboto-font">Enter your symptoms:</h5>
             </label><br>
             <p class="mb-1" style="font-size: 15px; font-style: italic;">
-                You have to enter multiple symptoms. Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.
+                Enter as many symptoms matches for accurate result. Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.
             </p>
-                <select name="symptoms" multiple class="w-100" style="height: 150px;">
+                <select name="symptoms" multiple class="w-100" style="height: 150px; font-size: 10px">
                     {% for symptom in symptoms_collection %}
                         <option value="{{ symptom }}">{{ symptom }}</option>
                     {% endfor %}
