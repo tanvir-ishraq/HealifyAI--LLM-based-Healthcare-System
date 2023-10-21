@@ -121,12 +121,12 @@ nav {
                         <option value="{{ symptom }}">{{ symptom }}</option>
                     {% endfor %}
                 </select> <br>
-                <input type="submit" name="symptoms_button" value="Submit" class="my-1 btn btn-dark">
+                <input type="submit" name="symptoms_button" value="Submit" class="my-1 btn btn-primary">
             </form>
     </div>
 
     <div class="col-md-4 result glass disease mr-2 ml-1 my-3">
-      <h5 class="font-weight-bold roboto-font">Heath condition Prediction result: </h5>  
+      <h5 class="font-weight-bold roboto-font">Health condition Prediction result: </h5>  
       <table class="w-100">
         <tbody>
             {% if predictions %}
@@ -165,7 +165,7 @@ nav {
             <!-- <p>see full list of health conditions here.</p> -->
             </label> <br />
             <textarea class="w-100" id="text" name="text" placeholder="e.g. What can you tell me about dehydration? / what are the treatment for stroke?"></textarea>
-            <input type="submit" name="LLM_button" value="Ask" class="btn btn-dark">
+            <input type="submit" name="LLM_button" value="Ask" class="btn primary">
         </form>
             
         <div class="LLM response my-2">
