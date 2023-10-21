@@ -39,7 +39,7 @@ def index():
             top_5_indices = argsort(probs[0]) [-5:] 
             top_5_indices = top_5_indices[ : : -1]
         
-            predictions = {model.classes_[idx] : int(probs[0][idx] *100)    for idx in top_5_indices}
+            predictions = {model.classes_[idx].title() : int(probs[0][idx] *100)    for idx in top_5_indices}
             return render_template('index.html', 
                                    predictions=predictions,
                                    symptoms_collection = ui_symptoms_sorted,
