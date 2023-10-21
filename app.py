@@ -12,7 +12,7 @@ with open('rf_model.pkl', 'rb') as file:
 with open("columns_encoded.json", "r") as f:
     columns_encoding = json.load(f) 
 
-ui_symptoms_sorted = sorted([symptom.capitalize() for symptom in columns_encoding.keys()])
+ui_symptoms_sorted = sorted(columns_encoding.keys())
 
 # Flask
 app = Flask(__name__)
