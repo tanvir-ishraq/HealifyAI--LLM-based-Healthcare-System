@@ -68,6 +68,9 @@ nav {
 }
 .roboto-font {
     font-family: 'Roboto', sans-serif;
+} 
+input, a {
+    font-size: 15px !important;
 }    
 </style>
 
@@ -134,7 +137,7 @@ nav {
                 <tr>
                     <td class="px-3">{{ disease }} :  </td>
                     <td>{{probability}}% {% if probability < 50 %}
-                                        <span style="font-size: 12px;">(unlikely)</span>
+                                        <span style="font-size: 10.5px;">(unlikely)</span>
                                         {% endif %}
                     </td>
                 </tr>
