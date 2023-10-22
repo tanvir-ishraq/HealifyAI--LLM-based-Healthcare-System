@@ -20,11 +20,12 @@ app = Flask(__name__)
 @app.route("/", methods=['GET', 'POST'])
 def index():
 
-    predictions = {}
+    predictions = {} #health condition predictions
+    LLM_output = []
     LLM_answer = ''
     
     if request.method == "POST":
-        print('==============================')
+        print('Log ==============================')
         if 'symptoms_button' in request.form:
             user_symptoms = request.form.getlist('symptoms')
 
@@ -39,10 +40,11 @@ def index():
             top_5_indices = argsort(probs[0]) [-5:] 
             top_5_indices = top_5_indices[ : : -1]
         
-            predictions = {model.classes_[idx].capitalize() : int(probs[0][idx] *100)    for idx in top_5_indices}
+            predictions = {model.classes_[idx].title() : int(probs[0][idx] *100)    for idx in top_5_indices}
             return render_template('index.html', 
                                    predictions=predictions,
-                                   symptoms_collection = ui_symptoms_sorted,
+                                   symptoms_collection=columns_encoding.keys(),
+                                   LLM_output = LLM_output
                                    )
 
         elif 'LLM_button' in request.form:
@@ -51,28 +53,32 @@ def index():
 
             output = predict_question(input_text)[0]['confidences']
             print(output)
-            #if output['confidence'] > 0.5 : 
-            output = output[0]
-            print('generating answer for {}'.format(output['label']) )
-            #selected_row = df[df['label'] == output['label'] ]#.idxmin()
+            print()
+            if output[0]['confidence'] > 0.5 : 
+                print('generating answer for {}'.format(output[0]['label']) )
 
-            LLM_answer = df.loc[df['label'] == output['label'], 'answer'].values[0]
-            #format answer for output:
-            LLM_answer = LLM_answer.replace('�', '\'')
-            LLM_answer = f'''{LLM_answer}'''
-            LLM_answer = '\n'.join( line+'<br>'    for line in LLM_answer.split('\n'))
-            print(LLM_answer)
+                LLM_answer = df.loc[df['label'] == output[0]['label'], 'answer'].values[0]
+                #format the answer for HTML:
+                LLM_answer = LLM_answer.replace('�', '\'')
+                LLM_answer = f'''{LLM_answer}'''
+                LLM_answer = ''.join( line+'<br>'    for line in LLM_answer.split('\n'))
+                output[0]['LLM_answer'] = LLM_answer
+            else:
+                output[0]['LLM_answer'] = LLM_answer
+                
+            LLM_output = output
+            print(LLM_output)
 
             return render_template("index.html", 
                                    input_text=input_text, 
-                                   LLM_answer=LLM_answer,
-                                   symptoms_collection = ui_symptoms_sorted)   
+                                   LLM_output=output,
+                                   symptoms_collection=columns_encoding.keys() )   
     
     else:
         return render_template("index.html", 
-                               symptoms_collection = ui_symptoms_sorted,
+                               symptoms_collection=columns_encoding.keys(),
                                predictions=predictions,
-                               LLM_answer=LLM_answer)
+                               LLM_output=LLM_output)
 
 
 # hugging face api 
