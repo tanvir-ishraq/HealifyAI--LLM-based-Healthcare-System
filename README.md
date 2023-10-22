@@ -43,7 +43,7 @@ __Hyperparameters__: We used a `batch size` of 8. And `learning rate` was set dy
 __Training Procedures:__ We used `HuggingFace` for the model and imported Fast.ai for hyperparameter tuing
 * RoBERTa model has been used because the QA dataset is complex.
 * Training was done using [ULMFiT Research Paper](https://arxiv.org/abs/1801.06146)'s 3-stage training policy.
-* The model was fine-tuned with good sample ratio with around 98% accuracy in 12 epochs. 6800 samples for only 135 diseases. The model was tracked to avoid overfitting observing loss. The model was trained using NVIDIA T4 GPU.  <br> 
+* The model was fine-tuned with 6800 samples around 98% accuracy in 12 epochs. The model was tracked to avoid overfitting observing loss. The model was trained using NVIDIA T4 GPU.  With good sample ratio, as total 6800 samples for just 135 diseases. <br> 
 
 <div align="center">  <strong> Disease Model: </strong> </div> 
 
