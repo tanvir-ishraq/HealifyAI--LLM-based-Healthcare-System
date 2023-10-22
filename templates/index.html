@@ -137,7 +137,7 @@ input, a {
             {% if predictions %}
                 {% for disease, probability in predictions.items() %}
                 <tr>
-                    <td class="px-3">{{ disease }} :  </td>
+                    <td class="px-3">{{ disease }}:  </td>
                     <td>{{probability}}% {% if probability < 50 %}
                                         <span style="font-size: 10.5px;">(unlikely)</span>
                                         {% endif %}
