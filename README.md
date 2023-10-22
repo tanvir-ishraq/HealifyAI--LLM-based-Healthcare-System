@@ -25,7 +25,7 @@ The model was trained on a kaggle dataset from [Disease-Symptom Knowledge Databa
 Covering 135 Categories of important common but also rare diseases/health conditions. <br>
 From a total of 400 Symptoms. <br>
 
-Had to process Disease dataset to clean the noisy symptoms, UMLScode etc. <br>
+Disease dataset was processed to clean the noisy symptoms, UMLScode etc. <br>
 LLM dataset processing required data seperation, sample addition.<br>
 The scraping can be found in `scraper` folder. <br> 
 All final datasets stored in `datasets` folder. <br> 
