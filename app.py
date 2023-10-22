@@ -49,14 +49,15 @@ def index():
             #print('LLM_button submitted')
             input_text = request.form['text'] #request.form.get('text_area_name')
 
-            output = predict_question(input_text)[0]['confidences'][0] #(input_text)[0] 
+            output = predict_question(input_text)[0]['confidences']
             print(output)
             #if output['confidence'] > 0.5 : 
+            output = output[0]
             print('generating answer for {}'.format(output['label']) )
             #selected_row = df[df['label'] == output['label'] ]#.idxmin()
 
-            LLM_answer = df.loc[df['label'] == output['label'], 'answer'].item()
-            print(type(LLM_answer), LLM_answer)
+            LLM_answer = df.loc[df['label'] == output['label'], 'answer'].values[0]
+            #format answer for output:
             LLM_answer = LLM_answer.replace('�', '\'')
             LLM_answer = f'''{LLM_answer}'''
             LLM_answer = '\n'.join( line+'<br>'    for line in LLM_answer.split('\n'))
