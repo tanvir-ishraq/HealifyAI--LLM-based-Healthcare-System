@@ -182,12 +182,25 @@ input, a {
         </form>
             
         <div class="LLM response my-2">
-            {% if LLM_answer %}
-                <!-- <p italic/small> generating answer for {question_label}..</p> -->
-                <p>{{LLM_answer|safe}}</p>
-            {% endif %}
+        {% if LLM_output %} 
+            
+            {% if LLM_output[0]['LLM_answer'] %}
+            <!-- <span id="foo" style="font-size: 16px;" class="font-italic">
+                Generating answer for {label}...
+            </span> -->
+                <p> {{ LLM_output[0]['LLM_answer']|safe }} </p> 
+            {% else %}
+                Hi, there is no necessary discernable answer for this query. Feel free to ask more questions. <br>
+            {% endif %} 
+            
+            More subjects you can type questions about : <br>
+            {% for i in range(1, LLM_output|length) %}
+                <button type="button" class="btn  m-1 btn-info btn-sm " > 
+                    {{ LLM_output[i]['label']|capitalize }}
+                </button>
+            {% endfor %}
+        {% endif %} 
         </div>
-    </div>
 
     <div class="col-md-2"></div>
 </div>
