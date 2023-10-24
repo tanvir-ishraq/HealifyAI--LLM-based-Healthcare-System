@@ -3,7 +3,7 @@ import json, pickle, requests
 import pandas as pd
 from numpy import argsort
 
-# laad required model and data
+# load required model and data
 df = pd.read_csv('healifyLLM_answer_dataset_optimized.csv', encoding='utf-8', engine='python')
 
 with open('rf_model.pkl', 'rb') as file:
