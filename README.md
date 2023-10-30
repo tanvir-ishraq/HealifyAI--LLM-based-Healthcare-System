@@ -12,7 +12,7 @@ The system consists of two main Modules:
 ## Data Collection, Cleaning, Prepocessing
 <div align="center">  <strong> Healify-LLM model: </strong> </div> 
 
-* Engineered brand new LLM Corpus Dataset of size 6800 samples from scratch. Scraping based on [healthline.com](https://www.healthline.com/directory/topics)
+* Engineered brand new LLM Corpus Dataset of size 6800 samples from scratch. Started with scraping based on [healthline.com](https://www.healthline.com/directory/topics)
 * To enhance the corpus for user experience, Sample addition was done with my python script. Enabling it to provide detailed and accurate answers to a wide range of user questioning styles.  <br>
 <!-- The LLM is trained on my from-scratch scraped corpus dataset(based on healthline.com ) of medical queries & professional solutions
 to enhance the corpus for user experience, Sample addition was done with python script .
