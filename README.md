@@ -52,7 +52,7 @@ Model was trained with `sklearn`'s ensemble random forest algorithm leveraging m
 
 
 ## Model Deployment
-A `Gradio App` was coded to deploy the LLM model in HuggingFace. The implementation can be found in `deployment_hf` folder and online [here](https://huggingface.co/spaces/tanvir-ishraq/healifyLLM-classifier)
+A `Gradio App` was coded to deploy the LLM model in HuggingFace. This live huggingfaces API is later integrated in the Back-End. The Gradio implementation can be found in `deployment_hf` folder and online [here](https://huggingface.co/spaces/tanvir-ishraq/healifyLLM-classifier)
 
 
 
