@@ -13,3 +13,5 @@ Automated these features in my scraper agents, automated human simulation behavi
 * Data Transformation and formatted data
 * Alternatively can send data to cloud storage platform
 * Caught exceptions and recorded any bug report
+  
+Responsible scraping was implemented to not orverload others web server. 
