@@ -1,4 +1,4 @@
-Designed a scraper system under this extensive end to end project. Involved scraping from google.com to challenge myself, which has one of the highest security. <br>
+Designed a scraper system under this extensive end to end project. Involved scraping from google.com to challenge myself, which has one of the highest security algorithms. <br>
 
 Automated these features in my scraper agents, automated human simulation behavior, prevented scraping detection:
 * Rotated different device user agents like Linux, Mac, Windows 7, Windows 8, Windows 8.1 on my Windows 10 PC 
