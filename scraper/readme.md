@@ -12,4 +12,4 @@ Automated these features in my scraper agents, automated human simulation behavi
 * accessed inaccessible javaScript based page data with script execution while scraping with Selenium
 * Data Transformation and formatted data
 * Caught exceptions and recorded any bug report
-* Alternatively sent data to cloud storage platform
+* Alternatively can send data to cloud storage platform
